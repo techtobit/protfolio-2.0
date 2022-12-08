@@ -1,0 +1,55 @@
+
+@import './Variables.scss';
+@import './StackHeaderS2.scss';
+@import './AboutMeS3.scss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+ margin: 0;
+ padding: 0;
+ scroll-behavior: smooth;
+ 
+}
+body{
+ font-family: $font-Roboto-Condensed;
+	background-color: #ffffff;
+ 
+
+}
+h1{
+ font-size:  $lg;
+ font-weight: $font-w-bold;
+}
+h2{
+ font-size: $lm;
+}
+
+.app{
+	overflow-x: hidden !important;
+}
+.sections{
+	padding: 0 $lg;
+}
+.sec-h-w{
+	width: 100vw;
+	height: 100vh;
+}
+.HeroSection{
+	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+}
+
+.HeroSection{
+	h2,h1{
+		line-height: $lm;
+	}
+}
+
+
+
+
+
+
+
+
