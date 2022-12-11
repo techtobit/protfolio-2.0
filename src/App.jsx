@@ -1,5 +1,6 @@
 import AboutMeS3 from './Components/AboutMeS3'
 import HeroSection from './Components/HeroSection'
+import ProjectsS5 from './Components/ProjectsS5'
 import StackHeaderS2 from './Components/StackHeaderS2'
 import TechnicalSkillsS4 from './Components/TechnicalSkillsS4'
 import './Style/Main.scss'
@@ -12,6 +13,7 @@ function App() {
       <StackHeaderS2 />
       <AboutMeS3 />
       <TechnicalSkillsS4 />
+      <ProjectsS5 />
     </div>
   )
 }
