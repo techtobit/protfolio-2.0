@@ -12,8 +12,8 @@
 		width: 80px;
 		height:80px;
 		z-index: 0;
-		top:24vh;
-		left: 36vh;
+		top:80%;
+		left: 17%;
 		border-radius: 50%;
 		background-image: linear-gradient(to bottom right,hsl(233, 75%, 57%), 	hsl(238, 100%, 71%));filter: blur(2.5em);
 }
@@ -22,21 +22,21 @@
 	z-index: 0;
 		width: 80px;
 		height:80px;
-		top:24vh;
-		right: 36vh;
+		top:80%;
+		right: 17%;
 		border-radius: 50%;
 		background-image: linear-gradient(to bottom right,hsl(233, 75%, 57%), 	hsl(238, 100%, 71%));filter: blur(2.5em);
 }
 	.stack-list{
 		background-color: #FBFCFC;
 		bottom: -16vh;
-		height: 30vh;
+		height: 100%;
 		width: 60%;
 
   .skills{
 				background-color: #FBFCFC;
 				width: 100%;
-				height: 20vh;
+				height: 28vh;
 		}
 	}
 }
@@ -87,9 +87,14 @@
 
 
 @media only screen and (max-width: 425px){
+	
 	.stack-header{
 	width: 100vw;
 	height: 160vh;
+		.stack-skill-icon{
+		width: 48px;
+		height: 48px;
+	}
   .stack-shadow{
 		width: 80px;
 		height:80px;

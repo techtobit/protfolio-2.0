@@ -5,10 +5,16 @@ import me from '../Assets/AboutMe/ashraf-uddin-s1.jpg'
 import compliedProjects from '../Assets/AboutMe/complited.png'
 import teamProject from '../Assets/AboutMe/team-project.png'
 import contents from '../Assets/AboutMe/content.png'
+import MainTitle from './Shared/SectionTitle/MainTitle';
+import SubTitle from './Shared/SectionTitle/SubTitle';
 
 const AboutMeS3 = () => {
  return (
-  <div className='about-me sec-h-w grid justify-center'>
+  <div className='about-me grid justify-center'>
+   <div className="section-title text-center pt-40 pb-20">
+    <MainTitle className=''><span className='font-bold text-3xl uppercase'>About <span className='text-blue-200'>Me</span></span></MainTitle>
+    <SubTitle>Short Brief About Me 💆‍♂️.</SubTitle>
+   </div>
    <div className="my-data lg:px-16 px-6 grid lg:grid-cols-3 grid-cols-1 justify-center items-center">
     <div className="me flex justify-center relative lg:py-0 py-10">
      {/* <div className="avatar-bg absolute"></div>

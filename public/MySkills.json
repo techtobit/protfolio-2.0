@@ -1,0 +1,124 @@
+[{
+  "skillName": "HTML",
+  "skillImg": "https://i.ibb.co/nb5VVsM/html-5.png",
+  "startLearning": "2020"
+ },
+ {
+  "skillName": "CSS",
+  "skillImg": " https://i.ibb.co/80m1VmJ/css3.png",
+  "startLearning": "2020"
+ },
+ {
+  "skillName": "SASS",
+  "skillImg": "https://i.ibb.co/mSM28nj/sass.png",
+  "startLearning": "2020"
+ },
+ {
+  "skillName": "BootStrap",
+  "skillImg": "https://i.ibb.co/LRzSktn/bootstrap.png",
+  "startLearning": "2020"
+ },
+ {
+  "skillName": "Tailwind",
+  "skillImg": "https://i.ibb.co/L8xt2Y9/tailwind.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "Javascript",
+  "skillImg": " https://i.ibb.co/GvxmFP0/javascript.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "React",
+  "skillImg": "https://i.ibb.co/m4H0N4w/react.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "Redux",
+  "skillImg": "https://i.ibb.co/tMQP4Dd/redux.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "Firebase",
+  "skillImg": "https://i.ibb.co/PWkxM5r/firebase.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "NodeJs",
+  "skillImg": "https://i.ibb.co/VJsxRjH/node-js.png",
+  "startLearning": "2020"
+ },
+ {
+  "skillName": "Express",
+  "skillImg": "https://i.ibb.co/VtTqVyw/express.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "MongoDb",
+  "skillImg": "https://i.ibb.co/QbKqVsQ/mongodb.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "RestApi",
+  "skillImg": "https://i.ibb.co/44wK2Pr/restApi.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "Mongoose",
+  "skillImg": "https://i.ibb.co/txXmCsM/mongoose.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "JWT",
+  "skillImg": "https://i.ibb.co/9HJD4xP/json-web-token.png",
+  "startLearning": "2021"
+ },
+
+ {
+  "skillName": "Figma",
+  "skillImg": "https://i.ibb.co/J3fhqFZ/figma.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "VsCode",
+  "skillImg": "https://i.ibb.co/KzBHqML/Vscode.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "GitHub",
+  "skillImg": "https://i.ibb.co/1JVXqhj/github.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "PhotoShop",
+  "skillImg": "https://i.ibb.co/8cPnK92/photoshop.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "DevTool",
+  "skillImg": "https://i.ibb.co/yNz1vxM/chrome.png",
+  "startLearning": "2021"
+ },
+  {
+  "skillName": "Heroku",
+  "skillImg": "https://i.ibb.co/nnjBWFD/heroku.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "Wordpress",
+  "skillImg": "https://i.ibb.co/2nSSDZt/wordpress.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "Trello",
+  "skillImg": "https://i.ibb.co/ThH6S4Y/trello.png",
+  "startLearning": "2021"
+ },
+  {
+  "skillName": "Office365",
+  "skillImg": "https://i.ibb.co/brfyj7h/microsoft.png",
+  "startLearning": "2021"
+ }
+
+
+]

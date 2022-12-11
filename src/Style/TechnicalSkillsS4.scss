@@ -1,0 +1,145 @@
+@import './Variables.scss';
+.TechnicalSkillsS4{
+  .sectionIndicator1{
+    // width: 250px;
+    // height: 250px;
+    // left: 28vw;
+    // bottom: 164vh;
+    // rotate: -15deg;
+  }
+  .sectionIndicator2{
+    // width: 320px;
+    // height: 350px;
+    // right: 26vw;
+    // bottom: 66vh;
+  }
+ .skills-catagories{
+  .skills-icon{
+   width: 48px;
+   height: 48px;
+  }
+  .skills-list:nth-child(1){
+   border-right: 0.2px solid $borderColor;
+  }
+  .skills-list:nth-child(2){
+   border-right: 0.2px solid $borderColor;
+  }
+  .skills-list:nth-child(4){
+   border-right: 0.2px solid $borderColor;
+  }
+  .skills-list:nth-child(5){
+   border-right: 0.2px solid $borderColor;
+  }
+    .skills-list:nth-child(7){
+   border-right: 0.2px solid $borderColor;
+  }
+  .skills-list:nth-child(8){
+   border-right: 0.2px solid $borderColor;
+  }
+
+  // border top side
+  .skills-list:nth-child(4){
+   border-top: 0.2px solid $borderColor;
+  }
+  .skills-list:nth-child(5){
+   border-top: 0.2px solid $borderColor;
+  }
+  .skills-list:nth-child(6){
+   border-top: 0.2px solid $borderColor;
+  }
+  .skills-list:nth-child(7){
+   border-top: 0.2px solid $borderColor;
+  }
+  .skills-list:nth-child(8){
+   border-top: 0.2px solid $borderColor;
+  }
+  .skills-list:nth-child(9){
+   border-top: 0.2px solid $borderColor;
+  }
+
+  .stack-shadow{
+		width:60px;
+		height:60px;
+		z-index: -1;
+		// top:24vh;
+		// left: 36vh;
+		border-radius: 50%;
+		background-image: linear-gradient(to bottom right,hsl(233, 75%, 57%), 	hsl(238, 100%, 71%));filter: blur(6.5em);
+}
+
+}
+
+// .skills-blob{
+//   width: 50vw;
+//   height: 50vh;
+// }
+.assets{
+  width: 450px;
+  height: 450px;
+}
+.lotiPlayer{
+  // width: 44vw;
+  // height: 44vh;
+}
+
+}
+// @media only screen and (min-width : 1360px) and (max-width: 1440px){
+//     .sectionIndicator1{
+//     width: 230px !important;
+//     height: 230px !important;
+//     left: 30vw !important;
+//     bottom: 30vh !important;
+//     rotate: -15deg !important;
+//   }
+//   .sectionIndicator2{
+//     width: 290px !important;
+//     height: 290px !important;
+//     right: 31vw !important;
+//   bottom: 100vh !important;
+//   rotate: -5deg;
+//   }
+// }
+// @media only screen and (min-width: 1024px){
+//     .sectionIndicator1{
+//     width: 230px !important;
+//     height: 230px !important;
+//     left: 25vw !important;
+//     bottom: 260vh !important;
+//     rotate: -10deg !important;
+//   }
+//   .sectionIndicator2{
+//     width: 290px !important;
+//     height: 290px !important;
+//     right: 24vw !important;
+//   bottom: 110vh !important;
+//   rotate: -5deg;
+//   }
+// }
+// @media only screen and (max-width: 768px){
+//     .sectionIndicator1{
+//     width: 200px !important;
+//     height: 200px !important;
+//     left: 20vw !important;
+//     bottom: 260vh !important;
+//     rotate: -15deg !important;
+//   }
+//   .sectionIndicator2{
+//     width: 290px !important;
+//     height: 290px !important;
+//     right: 14vw !important;
+//   bottom: 110vh !important;
+//   rotate: -5deg;
+//   }
+// }
+
+@media only screen and (max-width: 425px){
+  .TechnicalSkillsS4{
+    
+ .skills-catagories{
+    .skills-icon{
+    width: 32px;
+    height: 32px;
+  }
+  }
+  }
+}

@@ -9,7 +9,8 @@ import StackHeaderS2 from './StackHeaderS2';
 const HeroSection = () => {
  return (
   <div className='HeroSection sec-h-w flex justify-center relative'>
-   <div className="heroBgPlayer z-10 absolute ">
+   <div className="stack-shadow absolute z-10 opacity-30 "></div>
+   {/* <div className="heroBgPlayer z-10 absolute ">
     <Player
      src={HeroBgPlayer}
      className="player opacity-40"
@@ -17,7 +18,7 @@ const HeroSection = () => {
      autoplay
      style={{ height: '100vh', width: '100vw' }}
     />
-   </div>
+   </div> */}
    <div className="hero sections gap-10 z-20 absolute flex  w-full self-center lg:flex-row flex-col-reverse items-center justify-items-center justify-around ">
     <div className="hero-data ">
      <h3>Hello</h3>
