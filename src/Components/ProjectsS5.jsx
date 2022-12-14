@@ -32,7 +32,8 @@ const ProjectsS5 = () => {
        // onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}  
        >
         <img className="project-img card-shadow w-[100%] h-[100%] rounded-lg p-4 bg-white-200 " src={mernProject.projectImg} key={index} loading='lazy' alt="" />
-        <div className='project-hover-card flex-col justify-center items-center absolute rounded-lg w-[100%] h-[100%] bg-blue-50'>
+        {/* here is project details.normaly its hidden and after hover its will display the div  */}
+        <div className='project-hover-card flex-col justify-center items-center absolute rounded-lg w-[100%] h-[100%] '>
          <h2 className=' lg:text-4xl text-2xl font-bold uppercase lg:tracking-[.2em] text-white-200'>{mernProject.project}</h2>
          <div className="project-external-links flex lg:flex-row flex-col pt-4 gap-2">
           <a className='flex justify-center items-center lg:p-2 p-[6px]  rounded-md lg:font-semibold font-normal text-xs hover:text-white-200 bg-white-200 bg-blue-100 hover:bg-blue-200 text-white-200' href={mernProject.liveApp}><FaRegPaperPlane /> <span className='pl-2'>Live App</span></a>

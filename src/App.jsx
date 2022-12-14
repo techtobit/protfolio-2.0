@@ -1,4 +1,5 @@
 import AboutMeS3 from './Components/AboutMeS3'
+import FAQs from './Components/FAQs'
 import HeroSection from './Components/HeroSection'
 import ProjectDetails from './Components/ProjectDetails'
 import ProjectsS5 from './Components/ProjectsS5'
@@ -16,6 +17,7 @@ function App() {
       <TechnicalSkillsS4 />
       <ProjectsS5 />
       <ProjectDetails />
+      <FAQs />
     </div>
   )
 }
