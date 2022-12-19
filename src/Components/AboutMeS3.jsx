@@ -11,11 +11,11 @@ import SubTitle from './Shared/SectionTitle/SubTitle';
 const AboutMeS3 = () => {
  return (
   <div className='about-me grid justify-center'>
-   <div className="section-title text-center pt-40 pb-20">
+   <div className="section-title text-center">
     <MainTitle className=''><span className='font-bold text-3xl uppercase'>About <span className='text-blue-200'>Me</span></span></MainTitle>
     <SubTitle>Short Brief About Me 💆‍♂️.</SubTitle>
    </div>
-   <div className="my-data lg:px-16 px-6 grid lg:grid-cols-3 grid-cols-1 justify-center items-center">
+   <div className="my-data lg:pt-20 lg:px-16 px-6 grid lg:grid-cols-3 grid-cols-1 justify-center items-center">
     <div className="me flex justify-center relative lg:py-0 py-10">
      {/* <div className="avatar-bg absolute"></div>
      <div className="avatar-bg2 absolute"></div> */}
@@ -23,7 +23,7 @@ const AboutMeS3 = () => {
     </div>
     <div className="about lg:px-16 lg:col-span-2">
      <div className="about-bg pb-6">
-      <p className='first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900 first-letter:mr-3 first-letter:float-left'>
+      <p className='lg:first-letter:text-6xl first-letter:text-4xl first-letter:font-bold first-letter:text-slate-900 first-letter:mr-3 first-letter:float-left'>
        As a tech enthusiast, I enjoy exploring and implementing new things. Web Development is the best path to discover and develop in new ways.I'm a FrontEnd base Backend Developer as well as I have good experience building a web page using WordPress and some knowledge of SEO. Also,love to create content on youtube and write content for my own blog to make better interaction with my viewers.
       </p>
      </div>

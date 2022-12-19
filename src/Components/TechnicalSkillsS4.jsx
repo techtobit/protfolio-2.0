@@ -16,7 +16,7 @@ const TechnicalSkillsS4 = () => {
  const [skillsIcons] = SkillList();
 
  return (
-  <div className='TechnicalSkillsS4 relative lg:px-20 px-10 pt-[50rem] lg:pt-0'>
+  <div className='TechnicalSkillsS4 relative lg:px-20 px-10 pt-[0rem] lg:pt-20'>
    <div className="section-title text-center pt-20">
     <MainTitle className=''><span className='font-bold text-3xl uppercase'>Technical <span className='text-blue-200'>Skills</span></span></MainTitle>
     <SubTitle>Web Development & Coding Is Fun 💻.</SubTitle>

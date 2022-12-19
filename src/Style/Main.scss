@@ -5,6 +5,7 @@
 @import './TechnicalSkillsS4.scss';
 @import './HeroSectionS1.scss';
 @import './ProjectsS5.scss';
+@import './ContactWithUs.scss';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,6 +19,7 @@
 body{
  font-family: $font-Roboto-Condensed;
 	background-color: #ffffff;
+	color: $navy;
  
 
 }
@@ -45,8 +47,27 @@ h2{
 
 .HeroSection{
 	h2,h1{
-		line-height: $lm;
+		line-height: $lg; 
 	}
+}
+
+@media only screen and (max-width: 425px){
+	h1{
+ font-size:  $mx;
+ font-weight: $font-w-bold;
+}
+h2{
+ font-size: $mx;
+}
+.HeroSection{
+	h2,h1{
+		line-height: normal; 
+	}
+}
+
+	.sections{
+	padding: 0 $s;
+}
 }
 
 

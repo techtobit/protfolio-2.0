@@ -1,0 +1,33 @@
+@import './Variables.scss';
+@import './ProjectsS5.scss';
+
+.bottom-circle{
+ width: 140px;
+ height: 140px;
+ right: 0%;
+ bottom: 0%;
+ clip-path: circle(90% at 99% 100%);
+ background-color: #3B3486;
+ // background-color: #31326F;
+
+}
+
+.bottom-circle-full{
+//   width: 84px;
+//  height: 84px;
+//  right: 14%;
+//  bottom: 10%;
+ background-color: #FFC93C;
+ // background-color: #3F52E3;
+ opacity: 0.8;
+ clip-path: circle(50% at 50% 50%);
+}
+ .card-shadow {
+  box-shadow:
+  // 0 2.8px 2.2px  hsl(238, 100%, 71%, 0.2),
+  // 0 6.7px 5.3px hsl(238, 100%, 71%, 0.2),
+  // 0 12.5px 10px hsl(238, 100%, 71%, 0.2),
+  // 0 22.3px 17.9px hsl(238, 100%, 71%, 0.2),
+  0 20.8px 20.4px hsl(238, 100%, 71%, 0.2),
+  // 0 100px 80px hsl(238, 100%, 71%, 0.2);
+};
