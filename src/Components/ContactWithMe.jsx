@@ -58,7 +58,7 @@ const ContactWithMe = () => {
             {/* Admin Address  */}
             <div className="contact-info pl-5 pt-4">
               <a href="tel:+8801886627127" className="phone-number flex gap-4  items-center text-white-200 "><FaPhoneAlt /> <span>(+880) 1886627127</span></a>
-              <a href="https://api.whatsapp.com/send?phone=8801886627127" className="WhatsApp-number flex gap-4  items-center text-white-200 "><FaWhatsapp /> <span>WhatsApp</span></a>
+              <a href="https://api.whatsapp.com/send?phone=8801886627127" className="WhatsApp-number  flex gap-4 pt-4 items-center text-white-200  "><FaWhatsapp /> <span>WhatsApp</span></a>
               <a href="mailto:dev.ashraf.uddin@gmail.com" className="phone-number flex gap-4 pt-4 items-center text-white-200 "><FaEnvelope /> <span>dev.ashraf.uddin@gmail.com</span></a>
               <p className="phone-number flex gap-4 pt-4 items-center text-white-200 "><FaHome /> <span>Chittagong, Bangladesh </span></p>
               <p className="phone-number flex gap-4 pt-4 items-center text-white-200 "><FaClock /> <span>Time Zone (Dhaka +6:00GMT) </span></p>
