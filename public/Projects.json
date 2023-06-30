@@ -19,15 +19,15 @@
   "frontEndRepo" : "https://github.com/techtobit/Car-Cutter-FullStack-Website-Client-Side",
   "backendRepo" : "https://github.com/techtobit/Car-Cutter-FullStack-Website-ServerSide"
  },
-   {
-  "project": "Poysha Pay",
-  "projectId" : "03",
-  "projectImg": "https://i.ibb.co/YTQDpsX/poyshapay.jpg",
-  "projectType": "Full Stack",
-  "projectDiscription" : "Hello",
-  "liveApp" : "https://poysha-pay.web.app/",
-  "frontEndRepo" : "https://github.com/grnisna/POYSHA-pay/tree/dashboard/ashraf",
-  "backendRepo" : "https://i.ibb.co/YTQDpsX/poyshapay.jpg"
+     {
+  "project": "Edu Vibe",
+  "projectId" : "06",
+  "projectImg": "https://i.ibb.co/djvjVT0/eduVibe.png",
+  "projectType": "FrontEnd",
+   "projectDiscription" : "Hello",
+  "liveApp" : "https://edu-co-cc85b.firebaseapp.com/",
+  "frontEndRepo" : "https://github.com/techtobit/Edu-Vibe-Educational-Website",
+  "backendRepo" : ""
  },
   {
   "project": "Busibud",
@@ -49,15 +49,14 @@
   "frontEndRepo" : "https://github.com/techtobit/TodoApp",
   "backendRepo" : "https://github.com/techtobit/Todo-App-Backend"
  },
-   {
-  "project": "Edu Vibe",
-  "projectId" : "06",
-  "projectImg": "https://i.ibb.co/djvjVT0/eduVibe.png",
-  "projectType": "FrontEnd",
-   "projectDiscription" : "Hello",
-  "liveApp" : "https://edu-co-cc85b.firebaseapp.com/",
-  "frontEndRepo" : "https://github.com/techtobit/Edu-Vibe-Educational-Website",
-  "backendRepo" : ""
+  {
+  "project": "Poysha Pay",
+  "projectId" : "03",
+  "projectImg": "https://i.ibb.co/YTQDpsX/poyshapay.jpg",
+  "projectType": "Full Stack",
+  "projectDiscription" : "Hello",
+  "liveApp" : "https://poysha-pay.web.app/",
+  "frontEndRepo" : "https://github.com/grnisna/POYSHA-pay/tree/dashboard/ashraf",
+  "backendRepo" : "https://i.ibb.co/YTQDpsX/poyshapay.jpg"
  }
-
 ]
