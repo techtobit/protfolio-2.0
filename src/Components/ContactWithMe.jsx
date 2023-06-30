@@ -15,7 +15,7 @@ const ContactWithMe = () => {
 
   //submit form handler
   const onSubmit = data => {
-    emailjs.sendForm('service_776wy3q', 'template_xw03tug', form.current, 'lM9v4dJc3FTXmL0gb')
+    emailjs.sendForm('service_pk5d4kg', 'template_xw03tug', form.current, 'lM9v4dJc3FTXmL0gb')
       .then((result) => {
         console.log(result.text);
         //for showing lottipalyer after send
