@@ -54,7 +54,7 @@ const TechnicalSkillsS4 = () => {
       </div>
      </div>
     </div>
-    <img className='absolute sectionIndicator1 lg:w-[20%] lg:h-[20%] md:w-[22%] md:h-[20%]  lg:bottom-[54%] md:bottom-[35%] lg:left-[26%] md:left-[24%] lg:rotate-[-14deg] md:rotate-[-10deg] lg:block md:block hidden' src={sectionIndicator1} alt="" />
+    <img className='absolute sectionIndicator1 lg:w-[20%] lg:h-[20%] md:w-[22%] md:h-[20%]  lg:bottom-[52%] md:bottom-[35%] lg:left-[26%] md:left-[24%] lg:rotate-[-14deg] md:rotate-[-10deg] lg:block md:block hidden' src={sectionIndicator1} alt="" />
    </div>
    {/* skill-section-two  */}
    <div className="skill-section-two pt-20">

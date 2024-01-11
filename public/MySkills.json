@@ -1,11 +1,11 @@
 [{
   "skillName": "HTML",
-  "skillImg": "https://i.ibb.co/nb5VVsM/html-5.png",
+  "skillImg": "https://i.ibb.co/B2z55rw/html-1.png",
   "startLearning": "2020"
  },
  {
   "skillName": "CSS",
-  "skillImg": " https://i.ibb.co/80m1VmJ/css3.png",
+  "skillImg": "https://i.ibb.co/tJb9Mtx/css-1.png",
   "startLearning": "2020"
  },
  {
@@ -15,22 +15,22 @@
  },
  {
   "skillName": "BootStrap",
-  "skillImg": "https://i.ibb.co/LRzSktn/bootstrap.png",
+  "skillImg": "https://i.ibb.co/3TvZ36g/bootstrap-1.png",
   "startLearning": "2020"
  },
  {
   "skillName": "Tailwind",
-  "skillImg": "https://i.ibb.co/L8xt2Y9/tailwind.png",
+  "skillImg": "https://i.ibb.co/8B2FD3g/tailwind-css-4.png",
   "startLearning": "2021"
  },
  {
   "skillName": "Javascript",
-  "skillImg": " https://i.ibb.co/GvxmFP0/javascript.png",
+  "skillImg": "https://i.ibb.co/WHbGKcd/javascript-2.png",
   "startLearning": "2021"
  },
  {
   "skillName": "React",
-  "skillImg": "https://i.ibb.co/m4H0N4w/react.png",
+  "skillImg": "https://i.ibb.co/rdQ1GCK/react-1.png",
   "startLearning": "2021"
  },
  {
@@ -40,7 +40,7 @@
  },
  {
   "skillName": "Firebase",
-  "skillImg": "https://i.ibb.co/PWkxM5r/firebase.png",
+  "skillImg": "https://i.ibb.co/ZHRhzSr/firebase.png",
   "startLearning": "2021"
  },
  {
