@@ -27,8 +27,8 @@ const HeroSection = () => {
      {/* social icons and links  */}
      <div className="social-links flex gap-4 pl-0 lg:pt-[3%] md:pt-[10%] pb-[4%] pt-[4%]">
       <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.linkedin.com/in/ashrafuddin17/"><FaLinkedinIn /></a></div>
-      <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.linkedin.com/in/ashrafuddin17/"><FaGithub /></a></div>
-      <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.linkedin.com/in/ashrafuddin17/"><FaYoutube /></a></div>
+      <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://github.com/techtobit"><FaGithub /></a></div>
+      <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.youtube.com/channel/UC0pIXFHsiHUODADFzUQe_Tg"><FaYoutube /></a></div>
      </div>
     </div>
     <div className="lg:flex justify-center hero-blob lg:pt-0 mg:pt-20 pt-20 ">

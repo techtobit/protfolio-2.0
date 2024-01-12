@@ -54,7 +54,7 @@ const TechnicalSkillsS4 = () => {
       </div>
      </div>
     </div>
-    <img className='absolute sectionIndicator1 lg:w-[20%] lg:h-[20%] md:w-[22%] md:h-[20%]  lg:bottom-[49.5%] md:bottom-[35%] lg:left-[28%] md:left-[24%] lg:rotate-[-14deg] md:rotate-[-10deg] lg:block md:block hidden' src={sectionIndicator1} alt="" />
+    <img className='absolute sectionIndicator1 lg:w-[20%] lg:h-[20%] md:w-[22%] md:h-[20%]  lg:bottom-[52.5%] md:bottom-[35%] lg:left-[28%] md:left-[24%] lg:rotate-[-14deg] md:rotate-[-10deg] lg:block md:block hidden' src={sectionIndicator1} alt="" />
    </div>
    {/* skill-section-two  */}
    <div className="skill-section-two  pt-20">
@@ -77,7 +77,7 @@ const TechnicalSkillsS4 = () => {
      </div>
      <div className="skills-icons grid grid-cols-3 ">
       {
-       skillsIcons.slice(12, 21).map((backEnd, index) => {
+       skillsIcons.slice(12, 24).map((backEnd, index) => {
         return (
          <div key={index} className=' skills-list flex flex-col relative  items-center justify-center p-4'>
           <div className="stack-shadow absolute"></div>
@@ -89,20 +89,20 @@ const TechnicalSkillsS4 = () => {
       }
      </div>
     </div>
-    <img className='absolute sectionIndicator2 lg:w-[26%] lg:h-[26%] md:w-[34%] md:h-[22%]  lg:bottom-[14%] md:bottom-[12%] lg:left-[49.3%] md:left-[50%]  lg:block md:block hidden' src={sectionIndicator2} alt="" />
+    <img className='absolute sectionIndicator2 lg:w-[26%] lg:h-[26%] md:w-[34%] md:h-[22%]  lg:bottom-[19%] md:bottom-[12%] lg:left-[49.3%] md:left-[50%]  lg:block md:block hidden' src={sectionIndicator2} alt="" />
    </div>
 
    {/* skill-section-three  */}
-   <div className="skill-section-three h-screen pt-20 ">
+   <div className="skill-section-three  pt-20 ">
     <div className="flex justify-center flex-col items-center lg:pb-0 md:pb-0 pb-10">
      <SectionNumBlob> 3 </SectionNumBlob>
      <MainTitle className='capitalize'>Technical Tools</MainTitle>
      {/* <SubTitle>Frontend Stack</SubTitle> */}
     </div>
-    <div className="skills-catagories  grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 items-center">
+    <div className="skills-catagories h-screen  grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 items-center">
      <div className="skills-icons grid grid-cols-3 ">
       {
-       skillsIcons.slice(21, 31).map((techTools, index) => {
+       skillsIcons.slice(24, 36).map((techTools, index) => {
         return (
          <div key={index} className=' skills-list flex flex-col relative  items-center justify-center p-4'>
           <div className="stack-shadow absolute"></div>

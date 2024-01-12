@@ -7,7 +7,7 @@ import SubTitle from './Shared/SectionTitle/SubTitle';
 
 const FAQs = () => {
  return (
-  <div className="faqs-section">
+  <div className="faqs-section h-screen">
    <div className="section-title text-center ">
     <MainTitle className=''><span className='font-bold text-3xl uppercase'>Most Asked <span className='text-blue-200'>Questions</span></span></MainTitle>
     <SubTitle>Short Screening FAQs 🔉.</SubTitle>

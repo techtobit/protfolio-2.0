@@ -104,6 +104,21 @@
   "skillImg": "https://i.ibb.co/txXmCsM/mongoose.png",
   "startLearning": "2021"
  },
+ {
+  "skillName": "C++",
+  "skillImg": "https://i.ibb.co/0rxQZvc/c.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "DSA",
+  "skillImg": "https://i.ibb.co/J7JWPBM/connection.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "C",
+  "skillImg": "https://i.ibb.co/7gyBPyj/icons8-c-programming-96.png",
+  "startLearning": "2021"
+ },
 
 
  {
@@ -150,7 +165,21 @@
   "skillName": "Office365",
   "skillImg": "https://i.ibb.co/12bx6j9/microsoft-office.png",
   "startLearning": "2021"
+ },
+ {
+  "skillName": "Postman",
+  "skillImg": "https://i.ibb.co/KX5fVw2/postman.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "Vercel",
+  "skillImg": " https://i.ibb.co/2MhrFGC/vercel-256x225.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "Agail",
+  "skillImg": "https://i.ibb.co/jR8vL1k/icons8-agile-64.png",
+  "startLearning": "2021"
  }
-
 
 ]
