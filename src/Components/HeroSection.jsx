@@ -6,7 +6,7 @@ import HeroImg2 from '../Assets/mam2.png'
 import HeroWeb from '../Assets/hero-web-page.png'
 import HeroBgPlayer from '../Assets/development.json'
 import StackHeaderS2 from './StackHeaderS2';
-import resume from '../Assets/MD_ASHRAF_UDDIN-Junior_Web_Developer.pdf';
+import resume from '../Assets/Junior Software Engineer - Md Ashraf Uddin.pdf';
 import { FaLinkedinIn, FaGithub, FaYoutube, FaDownload } from "react-icons/fa";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 
