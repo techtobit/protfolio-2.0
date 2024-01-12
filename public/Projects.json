@@ -2,17 +2,17 @@
   {
   "project": "HITACHI",
   "projectId" : "01",
-  "projectImg": "https://i.ibb.co/ZcnXxSW/hitach.png",
+  "projectImg": "https://i.ibb.co/fXGtp65/hitachi.jpg",
   "projectType": "MERN STACK",
   "projectDiscription" : "Hello",
   "liveApp" : "https://hitachi-manufacturer-website-client-side.vercel.app/",
   "frontEndRepo" : "https://github.com/techtobit/HITACHI-MANUFACTURER-WEBSITE-ClientSide.git",
   "backendRepo" : "https://github.com/techtobit/HITACHI-MANUFACTURER-WEBSITE-ServerSide"
  },
-   {
+  {
   "project": "Car Cutter",
   "projectId" : "02",
-  "projectImg": "https://i.ibb.co/8xcRgNv/car-Cutter.png",
+  "projectImg": "https://i.ibb.co/z80pH7g/carcutter.jpg ",
   "projectType": "MERN STACK",
   "projectDiscription" : "Hello",
   "liveApp" : "https://warehouse-2e28c.web.app/",
@@ -22,7 +22,7 @@
      {
   "project": "Edu Vibe",
   "projectId" : "06",
-  "projectImg": "https://i.ibb.co/djvjVT0/eduVibe.png",
+  "projectImg": "https://i.ibb.co/09DyVbK/eduv.jpg",
   "projectType": "FrontEnd",
    "projectDiscription" : "Hello",
   "liveApp" : "https://edu-co-cc85b.firebaseapp.com/",
