@@ -42,9 +42,9 @@ const ProjectsS5 = () => {
         <div className='project-hover-card flex-col justify-center items-center absolute rounded-lg w-[100%] h-[100%] '>
          <h2 className=' lg:text-4xl text-2xl font-bold uppercase lg:tracking-[.2em] text-white-200'>{mernProject.project}</h2>
          <div className="project-external-links flex lg:flex-row flex-col pt-4 gap-2">
-          <a className='flex justify-center items-center lg:p-2 p-[6px]  rounded-md lg:font-semibold font-normal text-xs hover:text-white-200 bg-white-200 bg-blue-100 hover:bg-blue-100 text-blue-100' href={mernProject.liveApp}><FaRegPaperPlane /> <span className='pl-2'>Live App</span></a>
-          <a className='flex justify-center items-center lg:p-2 p-[6px] rounded-md lg:font-semibold font-normal text-xs  hover:text-white-200 bg-white-200 bg-blue-100 hover:bg-blue-100 text-blue-100' href={mernProject.frontEndRepo}><FaGithub /> <span className='pl-2'>FrontEnd</span></a>
-          <a className='flex justify-center items-center lg:p-2 p-[6px] rounded-md lg:font-semibold font-normal text-xs hover:text-white-200 bg-white-200 bg-blue-100 hover:bg-blue-100 text-blue-100' href={mernProject.backendRepo}><FaGithub /> <span className='pl-2'>Backend</span></a>
+          <a className='flex justify-center items-center lg:p-2 p-[6px]  rounded-md lg:font-semibold font-normal text-xs hover:text-white-200 bg-white-200 bg-blue-100 hover:bg-blue-100 text-blue-100' href={mernProject.liveApp} target="_blank"><FaRegPaperPlane /> <span className='pl-2'>Live App</span></a>
+          <a className='flex justify-center items-center lg:p-2 p-[6px] rounded-md lg:font-semibold font-normal text-xs  hover:text-white-200 bg-white-200 bg-blue-100 hover:bg-blue-100 text-blue-100' href={mernProject.frontEndRepo} target="_blank"><FaGithub /> <span className='pl-2'>FrontEnd</span></a>
+          <a className='flex justify-center items-center lg:p-2 p-[6px] rounded-md lg:font-semibold font-normal text-xs hover:text-white-200 bg-white-200 bg-blue-100 hover:bg-blue-100 text-blue-100' href={mernProject.backendRepo} target="_blank"><FaGithub /> <span className='pl-2'>Backend</span></a>
          </div>
         </div>
 

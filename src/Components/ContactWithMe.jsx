@@ -57,17 +57,17 @@ const ContactWithMe = () => {
             </div>
             {/* Admin Address  */}
             <div className="contact-info pl-5 pt-4">
-              <a href="tel:+8801886627127" className="phone-number flex gap-4  items-center text-white-200 "><FaPhoneAlt /> <span>(+880) 1886627127</span></a>
-              <a href="https://api.whatsapp.com/send?phone=8801886627127" className="phone-number flex gap-4 pt-4 items-center text-white-200  "><FaWhatsappSquare /> <span>WhatsApp</span></a>
+              <a href="tel:+8801886627127" target="_blank" className="phone-number flex gap-4  items-center text-white-200 "><FaPhoneAlt /> <span>(+880) 1886627127</span></a>
+              <a href="https://api.whatsapp.com/send?phone=8801886627127" target="_blank" className="phone-number flex gap-4 pt-4 items-center text-white-200  "><FaWhatsappSquare /> <span>WhatsApp</span></a>
               <a href="mailto:dev.ashraf.uddin@gmail.com" className="phone-number flex gap-4 pt-4 items-center text-white-200 "><FaEnvelope /> <span>dev.ashraf.uddin@gmail.com</span></a>
               <p className="phone-number flex gap-4 pt-4 items-center text-white-200 "><FaHome /> <span>Chittagong, Bangladesh </span></p>
               <p className="phone-number flex gap-4 pt-4 items-center text-white-200 "><FaClock /> <span>Time Zone (Dhaka +6:00GMT) </span></p>
             </div>
             {/* social icons and links  */}
             <div className="social-links flex gap-4 pl-6 lg:pt-[40%] md:pt-[10%] pb-[4%] pt-[40%]">
-              <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.linkedin.com/in/ashrafuddin17/"><FaLinkedinIn /></a></div>
-              <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://github.com/techtobit"><FaGithub /></a></div>
-              <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.youtube.com/channel/UC0pIXFHsiHUODADFzUQe_Tg"><FaYoutube /></a></div>
+              <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.linkedin.com/in/ashrafuddin17/" target="_blank"><FaLinkedinIn /></a></div>
+              <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://github.com/techtobit" target="_blank"><FaGithub /></a></div>
+              <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.youtube.com/channel/UC0pIXFHsiHUODADFzUQe_Tg" target="_blank"><FaYoutube /></a></div>
             </div>
           </div>
         </div>
