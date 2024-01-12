@@ -44,35 +44,67 @@
   "startLearning": "2021"
  },
  {
-  "skillName": "NodeJs",
-  "skillImg": "https://i.ibb.co/VJsxRjH/node-js.png",
-  "startLearning": "2020"
- },
- {
-  "skillName": "Express",
-  "skillImg": "https://i.ibb.co/VtTqVyw/express.png",
-  "startLearning": "2021"
- },
- {
-  "skillName": "MongoDb",
-  "skillImg": "https://i.ibb.co/QbKqVsQ/mongodb.png",
-  "startLearning": "2021"
- },
- {
   "skillName": "RestApi",
   "skillImg": "https://i.ibb.co/44wK2Pr/restApi.png",
   "startLearning": "2021"
  },
  {
+  "skillName": "NPM",
+  "skillImg": "https://i.ibb.co/RHYDQFS/npm.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "TypeScript",
+  "skillImg": "https://i.ibb.co/8dJPzTd/typescript.png",
+  "startLearning": "2021"
+ },
+ {
+
+  "skillName": "NodeJs",
+  "skillImg": "https://i.ibb.co/92zpTDH/node-js-1.png",
+  "startLearning": "2020"
+ },
+ {
+  "skillName": "Express",
+  "skillImg": "https://i.ibb.co/TKCkpMj/express.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "MongoDb",
+  "skillImg": "https://i.ibb.co/FVJTwgK/mongodb-2.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "Python",
+  "skillImg": "https://i.ibb.co/TW6MXRT/python.png",
+  "startLearning": "2023"
+ },
+ {
+  "skillName": "Django",
+  "skillImg": "https://i.ibb.co/ZN67Ddd/django.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "MySql",
+  "skillImg": "https://i.ibb.co/kh1wX7F/mysql-1.png",
+  "startLearning": "2021"
+ },
+ {
+  "skillName": "Docker",
+  "skillImg": "https://i.ibb.co/xq2fpgK/docker.png",
+  "startLearning": "2021"
+ },
+ {
+    "skillName": "JWT",
+    "skillImg": "https://i.ibb.co/9HJD4xP/json-web-token.png",
+    "startLearning": "2021"
+  },
+ {
   "skillName": "Mongoose",
   "skillImg": "https://i.ibb.co/txXmCsM/mongoose.png",
   "startLearning": "2021"
  },
- {
-  "skillName": "JWT",
-  "skillImg": "https://i.ibb.co/9HJD4xP/json-web-token.png",
-  "startLearning": "2021"
- },
+
 
  {
   "skillName": "Figma",
@@ -100,23 +132,23 @@
   "startLearning": "2021"
  },
   {
-  "skillName": "Heroku",
-  "skillImg": "https://i.ibb.co/nnjBWFD/heroku.png",
+  "skillName": "Bitbucket",
+  "skillImg": "https://i.ibb.co/nc1q6t6/bitbucket.png",
   "startLearning": "2021"
  },
  {
   "skillName": "Wordpress",
-  "skillImg": "https://i.ibb.co/2nSSDZt/wordpress.png",
+  "skillImg": "https://i.ibb.co/brJgYNf/wordpress.png",
   "startLearning": "2021"
  },
  {
-  "skillName": "Trello",
-  "skillImg": "https://i.ibb.co/ThH6S4Y/trello.png",
+  "skillName": "Jira",
+  "skillImg": "https://i.ibb.co/jMjngr1/jira.png",
   "startLearning": "2021"
  },
   {
   "skillName": "Office365",
-  "skillImg": "https://i.ibb.co/brfyj7h/microsoft.png",
+  "skillImg": "https://i.ibb.co/12bx6j9/microsoft-office.png",
   "startLearning": "2021"
  }
 
