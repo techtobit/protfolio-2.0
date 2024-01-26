@@ -51,7 +51,7 @@ const FAQs = () => {
      <details class="w-full bg-white border-[0.5px] rounded-md border-blue-50 cursor-pointer mb-3">
       <summary class="w-full bg-white font-semibold text-dark flex justify-between px-4 py-3 hover:bg-blue-50 after:content-['+'] ">Do you have any corporate or prefrontal working experience in this domain?</summary>
       <p class="px-4 py-3">
-       Not really, but I have worked on 2 months team project as team lead
+       I worked as a front-end developer for around 7 months at Singapore base company Edufied as well as worked on 2 months team project as team lead
       </p>
      </details>
     </div>
