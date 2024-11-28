@@ -1,31 +1,38 @@
 
 
-.stack-header{
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
-}
+// .stack-header{
+// 	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+// }
 
 .stack-header{
 	width: 100vw;
-	height: 30vh;
+	height: 16vh;
+
+	.stack-card-title{
+		z-index: 100;
+		bottom:-30%;
+		left: 24%;
+	}
+
 
 .stack-shadow{
 		width: 80px;
 		height:80px;
 		z-index: 0;
-		top:80%;
+		top:98%;
 		left: 17%;
 		border-radius: 50%;
-		background-image: linear-gradient(to bottom right,hsl(233, 75%, 57%), 	hsl(238, 100%, 71%));filter: blur(2.5em);
+		background-image: linear-gradient(to bottom right,hsl(233, 75%, 57%), 	hsl(238, 100%, 71%));filter: blur(1.9em);
 }
 
 .stack-shadow-two{
 	z-index: 0;
 		width: 80px;
 		height:80px;
-		top:80%;
+		top:98%;
 		right: 17%;
 		border-radius: 50%;
-		background-image: linear-gradient(to bottom right,hsl(233, 75%, 57%), 	hsl(238, 100%, 71%));filter: blur(2.5em);
+		background-image: linear-gradient(to bottom right,hsl(233, 75%, 57%), 	hsl(238, 100%, 71%));filter: blur(1.9em);
 }
 	.stack-list{
 		background-color: #FBFCFC;
