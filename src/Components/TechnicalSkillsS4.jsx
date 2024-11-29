@@ -28,7 +28,6 @@ const TechnicalSkillsS4 = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: '.accordions',
-        markers: true,
         pin: true,
         pinSpacing: false,
         start: "top top",
