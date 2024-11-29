@@ -13,16 +13,16 @@
 *{
  margin: 0;
  padding: 0;
- scroll-behavior: smooth;
- 
 }
+
+
 body{
  font-family: $font-Roboto-Condensed;
 	background-color: #ffffffef;
 	color: $navy;
- 
-
+	scroll-behavior: none;
 }
+
 h1{                                                                                         
  font-size:  $lg;
  font-weight: $font-w-bold;

@@ -8,6 +8,7 @@ import contents from '../Assets/AboutMe/content.png'
 import MainTitle from './Shared/SectionTitle/MainTitle';
 import SubTitle from './Shared/SectionTitle/SubTitle';
 
+
 const AboutMeS3 = () => {
  return (
   <div className='about-me grid justify-center'>
@@ -52,6 +53,7 @@ const AboutMeS3 = () => {
      </div>
     </div>
    </div>
+
   </div>
  );
 };
