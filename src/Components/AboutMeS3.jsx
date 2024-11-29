@@ -32,8 +32,8 @@ const AboutMeS3 = () => {
       <div className="works">
        <div className="stack flex flex-col lg:items-start  items-center lg:pb-0 pb-6 md:pr-0 lg:pr-6 pr-0">
         <img className='about-work-img' src={compliedProjects} alt="" />
-        <h3 className='font-bold pt-4'>20+ Projects</h3>
-        <h3>Complied FrontEnd & BackEnd </h3>
+        <h3 className='font-bold pt-4'>30+ Live Project </h3>
+        <h3>FrontEnd & BackEnd </h3>
        </div>
       </div>
       <div className="work">
@@ -47,7 +47,7 @@ const AboutMeS3 = () => {
        <div className="stack flex flex-col lg:items-start  items-center lg:pb-0 pb-6  lg:px-6 ">
         <img className='about-work-img' src={contents} alt="" />
         <h3 className='font-bold pt-4'>30+ Videos & Blogs</h3>
-        <h3>600K+ Youtube & Web Traffic</h3>
+        <h3>600K+ Views 1.6K Subs On Youtube</h3>
        </div>
       </div>
      </div>
