@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416 148" width="416" height="148">
+	<title>New Project</title>
+	<defs>
+		<image  width="1500" height="500" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABdwAAAH0AQMAAAAdS31vAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAfJJREFUeJztzkENADAIALHh3/RE8GhIrgo677DRgY3ySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXySnmlvFJeKa+UV8or5ZXyyge8FAH1JeuFbQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #3b3486 } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="-140"/>
+	<path id="Shape 2" class="s0" d="m393.6 65.9l-3.2 3.9-82-66 3.2-3.9z"/>
+	<path id="Shape 1" class="s0" d="m0 73.3v-5l394-2v5z"/>
+	<path id="Shape 3" class="s0" d="m310.6 141.9l-3.2-3.8 82.5-70.5 3.2 3.8z"/>
+</svg>

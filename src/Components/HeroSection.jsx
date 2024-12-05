@@ -1,6 +1,7 @@
 import { Player } from '@lottiefiles/react-lottie-player';
 import React from 'react';
 import HeroWeb from '../Assets/hero-web-page.png'
+import scrollArrow from '../Assets/New Project (1).svg'
 import resume from '../Assets/MD ASHRAF UDDIN.pdf';
 import { FaLinkedinIn, FaGithub, FaYoutube, FaDownload } from "react-icons/fa";
 import { AiFillPlayCircle } from "react-icons/ai";
@@ -30,15 +31,17 @@ const HeroSection = () => {
 
           </div>
           {/* social icons and links  */}
-          <div className="social-links fixed left-10 bottom-0 flex flex-col gap-4 pl-0 lg:pt-[2%] md:pt-[4%] pb-[4%] pt-[4%]">
+          <div className="social-links absolute left-10 -bottom-[35%] flex flex-col gap-4">
             <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.linkedin.com/in/ashrafuddin17/" target="_blank"><FaLinkedinIn /></a></div>
             <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://github.com/techtobit" target="_blank"><FaGithub /></a></div>
             <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.youtube.com/channel/UC0pIXFHsiHUODADFzUQe_Tg" target="_blank"><FaYoutube /></a></div>
+
           </div>
+          <button className='flex flex-col absolute rotate-[90deg] hover:translate-y-6 right-0 -bottom-[26%]  justify-center '>
+              <p className=''> scroll down</p>
+              <div className='absolute -left-12 w-[0.5px] h-20 bg-blue-300 rotate-[90deg] '></div>
+            </button>
         </div>
-        {/* <div className="lg:flex justify-center hero-blob lg:pt-0 mg:pt-20 pt-20 ">
-     <img className='hero-illustration lg:w-[100%] w-[200px] lg:h-[100%] h-[200px]' src={HeroWeb} alt="" />
-    </div> */}
       </div>
     </div>
   );
