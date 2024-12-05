@@ -50,13 +50,13 @@ const ContactWithMe = () => {
             <div className="bottom-circle absolute"></div>
             <div className="bottom-circle-full w-[84px] h-[84px] lg:right-[14%]  md:right-[6%] right-[14%] bottom-[10%] absolute"></div>
             {/* card header  */}
-            <div className="card-header pl-6 p-10">
+            <div className="card-header pl-6 py-9">
               <p className='text-white-200 text-3xl font-bold'>Contact Information</p>
               <pc className='text-white-200 pt-2'>Fill up the form i will get back to you within 24 hours.</pc>
               <p></p>
             </div>
             {/* Admin Address  */}
-            <div className="contact-info pl-5 pt-4">
+            <div className="contact-info pl-5 pt-0 ">
               <a href="tel:+8801886627127" target="_blank" className="phone-number flex gap-4  items-center text-white-200 "><FaPhoneAlt /> <span>(+880) 1886627127</span></a>
               <a href="https://api.whatsapp.com/send?phone=8801886627127" target="_blank" className="phone-number flex gap-4 pt-4 items-center text-white-200  "><FaWhatsappSquare /> <span>WhatsApp</span></a>
               <a href="mailto:dev.ashraf.uddin@gmail.com" className="phone-number flex gap-4 pt-4 items-center text-white-200 "><FaEnvelope /> <span>dev.ashraf.uddin@gmail.com</span></a>
@@ -64,11 +64,11 @@ const ContactWithMe = () => {
               <p className="phone-number flex gap-4 pt-4 items-center text-white-200 "><FaClock /> <span>Time Zone (Dhaka +6:00GMT) </span></p>
             </div>
             {/* social icons and links  */}
-            <div className="social-links flex gap-4 pl-6 lg:pt-[40%] md:pt-[10%] pb-[4%] pt-[40%]">
+            {/* <div className="social-links flex gap-4 pl-6 lg:pt-[40%] md:pt-[10%] pb-[4%] pt-[40%]">
               <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.linkedin.com/in/ashrafuddin17/" target="_blank"><FaLinkedinIn /></a></div>
               <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://github.com/techtobit" target="_blank"><FaGithub /></a></div>
               <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.youtube.com/channel/UC0pIXFHsiHUODADFzUQe_Tg" target="_blank"><FaYoutube /></a></div>
-            </div>
+            </div> */}
           </div>
         </div>
 
