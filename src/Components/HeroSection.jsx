@@ -1,16 +1,34 @@
 import { Player } from '@lottiefiles/react-lottie-player';
 import React from 'react';
-import HeroWeb from '../Assets/hero-web-page.png'
-import scrollArrow from '../Assets/New Project (1).svg'
 import resume from '../Assets/MD ASHRAF UDDIN.pdf';
 import { FaLinkedinIn, FaGithub, FaYoutube, FaDownload } from "react-icons/fa";
 import { AiFillPlayCircle } from "react-icons/ai";
 import { AiOutlineCloudDownload } from "react-icons/ai";
+import bulb from '../Assets/Hero/Lightbulb.png'
+import eng from '../Assets/Hero/Sticker_eng.png'
+import coffee from '../Assets/Hero/Coffee Cup.png'
+import react from '../Assets/Hero/Sticker_React.png'
+import mysql from '../Assets/Hero/mysql.png'
+import javascript from '../Assets/Hero/java-script.png'
+import python from '../Assets/Hero/python.png'
+import aws from '../Assets/Hero/aws.png'
+import typescript from '../Assets/Hero/typescript.png'
+import c from '../Assets/Hero/c-.png'
 
 const HeroSection = () => {
   return (
     <div className='HeroSection lg:h-[92vh] h-[100vh] flex justify-center relative'>
       <div className="background-shadow absolute z-10 opacity-40 "></div>
+      <div className='w-full h-full'>
+        <img src={bulb} className='w-24 absolute top-[50%] left-[15%] rotate-[-20deg] opacity-50'  />
+        <img src={typescript} className='w-10 absolute top-[50%] right-[15%] rotate-[-20deg] opacity-50'  />
+        <img src={python} className='w-10 absolute top-[32%] left-[4%] rotate-[-40deg] opacity-50'  />
+        <img src={c} className='w-10 absolute top-[32%] right-[4%] rotate-[-40deg] opacity-50'  />
+        <img src={react} className='w-16 absolute top-[10%] left-[16%] rotate-[-10deg] opacity-50'  />
+        <img src={mysql} className='w-10 absolute top-[10%] right-[16%] rotate-[-10deg] opacity-100'  />
+        <img src={javascript} className='w-10 absolute bottom-[6%] left-[10%] rotate-[-30deg] opacity-50'  />
+        <img src={aws} className='w-10 absolute bottom-[6%] right-[10%] rotate-[-30deg] opacity-50'/>
+      </div>
       <div className="hero sections lg:gap-10 gap-2 z-20 absolute flex  w-full self-center lg:flex-row flex-col-reverse items-center justify-items-center justify-around ">
         <div className="hero-data  text-blue-300 flex flex-col justify-center items-center ">
           <span className='text-center hover:animate-shake'>
