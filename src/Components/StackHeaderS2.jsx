@@ -6,7 +6,7 @@ import '../Style/StackHeaderS2.scss'
 const StackHeaderS2 = () => {
   return (
     <>
-      <div className="stack-header lg:flex hidden justify-center absolute bottom-[40px] ">
+      <div className="stack-header lg:flex hidden justify-center absolute bottom-[15%] ">
         <div className="stack-shadow absolute"></div>
         <div className="stack-shadow-two absolute"></div>
         <p className='stack-card-title absolute text-md font-bold underline'>Open to work as</p>

@@ -26,15 +26,7 @@ module.exports = {
         500: '#FF0000'
       }
     },
-    extend:{
-      perspective: {
-        '1000': '1000px',
-      },
-      transform: {
-        'rotate-x-45': 'rotateX(45deg)',
-        'rotate-y-45': 'rotateY(45deg)',
-      },
-    }
+
   },
   
   plugins: [],
