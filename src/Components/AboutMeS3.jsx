@@ -11,7 +11,7 @@ import SubTitle from './Shared/SectionTitle/SubTitle';
 
 const AboutMeS3 = () => {
  return (
-  <div className='about-me grid justify-center'>
+  <div className='about-me mt-[10%] grid justify-center'>
    <div className="section-title text-center">
     <MainTitle className=''><span className='font-bold text-3xl uppercase'>About <span className='text-blue-200'>Me</span></span></MainTitle>
     <SubTitle>Short Brief About Me 💆‍♂️.</SubTitle>
@@ -24,7 +24,7 @@ const AboutMeS3 = () => {
     </div>
     <div className="about lg:px-16 lg:col-span-2">
      <div className="about-bg pb-6">
-      <p className='lg:first-letter:text-6xl first-letter:text-4xl first-letter:font-bold first-letter:text-slate-900 first-letter:mr-3 first-letter:float-left'>
+      <p className='text-justify lg:first-letter:text-6xl first-letter:text-4xl first-letter:font-bold first-letter:text-slate-900 first-letter:mr-3 first-letter:float-left'>
        As a tech enthusiast, I enjoy exploring and implementing new things. Web Development is the best path to discover and develop in new ways.I'm a FrontEnd base Backend Developer as well as I have good experience building a web page using WordPress and some knowledge of SEO. Also,love to create content on youtube and write content for my own blog to make better interaction with my viewers.
       </p>
      </div>
