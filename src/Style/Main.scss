@@ -11,11 +11,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  /* .btn-primary {
-      @apply py-1.5 px-3 text-center bg-blue-700 rounded-md text-white;
-  } */
-}
+
 
 .transition-all {
   transition: all 0.3s ease-in-out;
@@ -64,6 +60,10 @@ h2{
 	h2,h1{
 		line-height: $lg; 
 	}
+}
+
+#slider_width{
+	// width: 100px;
 }
 
 @media only screen and (max-width: 425px){

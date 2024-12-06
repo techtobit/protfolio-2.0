@@ -10,6 +10,7 @@ import './Style/Main.scss'
 import './Style/StackHeaderS2.scss'
 import SeectionAnimate from './Components/SeectionAnimate'
 import WorkExperience from './Components/WorkExperience'
+import Certificate from './Components/Certificate'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <StackHeaderS2 />
       <AboutMeS3 />
       <WorkExperience/>
+      <Certificate/>
       <TechnicalSkillsS4 />
       <ProjectsS5 />
       <FAQs />
