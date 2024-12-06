@@ -107,7 +107,7 @@ const Certificate = () => {
 
 						<div className="flex items-center gap-2">
 							<h1>{data.year}</h1>
-							<div className="h-[1px] w-[100%]  bg-blue-100 border-2-2 border-red-500 h-full border"></div>
+							<div className="h-[1px] w-[100%]  bg-blue-100 border-2-2 border-blue-300 h-full border"></div>
 						</div>
 						<span>{data.courseName}</span>
 					</div>
