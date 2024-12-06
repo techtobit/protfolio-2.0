@@ -9,6 +9,7 @@ import TechnicalSkillsS4 from './Components/TechnicalSkillsS4'
 import './Style/Main.scss'
 import './Style/StackHeaderS2.scss'
 import SeectionAnimate from './Components/SeectionAnimate'
+import WorkExperience from './Components/WorkExperience'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <HeroSection />
       <StackHeaderS2 />
       <AboutMeS3 />
+      <WorkExperience/>
       <TechnicalSkillsS4 />
       <ProjectsS5 />
       <FAQs />

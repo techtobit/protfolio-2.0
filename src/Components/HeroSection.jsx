@@ -20,14 +20,14 @@ const HeroSection = () => {
     <div className='HeroSection lg:h-[92vh] h-[100vh] flex justify-center relative'>
       <div className="background-shadow absolute z-10 opacity-40 "></div>
       <div className='w-full h-full'>
-        <img src={bulb} className='w-24 absolute top-[50%] left-[15%] rotate-[-20deg] opacity-50'  />
-        <img src={typescript} className='w-10 absolute top-[50%] right-[15%] rotate-[-20deg] opacity-50'  />
-        <img src={python} className='w-10 absolute top-[32%] left-[4%] rotate-[-40deg] opacity-50'  />
-        <img src={c} className='w-10 absolute top-[32%] right-[4%] rotate-[-40deg] opacity-50'  />
-        <img src={react} className='w-16 absolute top-[10%] left-[16%] rotate-[-10deg] opacity-50'  />
-        <img src={mysql} className='w-10 absolute top-[10%] right-[16%] rotate-[-10deg] opacity-100'  />
-        <img src={javascript} className='w-10 absolute bottom-[6%] left-[10%] rotate-[-30deg] opacity-50'  />
-        <img src={aws} className='w-10 absolute bottom-[6%] right-[10%] rotate-[-30deg] opacity-50'/>
+        <img src={bulb} className='w-24 absolute top-[50%] left-[15%] rotate-[-20deg] opacity-50' />
+        <img src={typescript} className='w-10 absolute top-[50%] right-[15%] rotate-[-20deg] opacity-50' />
+        <img src={python} className='w-10 absolute top-[32%] left-[4%] rotate-[-40deg] opacity-50' />
+        <img src={c} className='w-10 absolute top-[32%] right-[4%] rotate-[-40deg] opacity-50' />
+        <img src={react} className='w-16 absolute top-[10%] left-[16%] rotate-[-10deg] opacity-50' />
+        <img src={mysql} className='w-10 absolute top-[10%] right-[16%] rotate-[-10deg] opacity-100' />
+        <img src={javascript} className='w-10 absolute bottom-[6%] left-[10%] rotate-[-30deg] opacity-50' />
+        <img src={aws} className='w-10 absolute bottom-[6%] right-[10%] rotate-[-30deg] opacity-50' />
       </div>
       <div className="hero sections lg:gap-10 gap-2 z-20 absolute flex  w-full self-center lg:flex-row flex-col-reverse items-center justify-items-center justify-around ">
         <div className="hero-data  text-blue-300 flex flex-col justify-center items-center ">
@@ -56,9 +56,9 @@ const HeroSection = () => {
 
           </div>
           <button className='flex flex-col absolute rotate-[90deg] hover:translate-y-6 right-0 -bottom-[26%]  justify-center '>
-              <p className=''> scroll down</p>
-              <div className='absolute -left-12 w-[0.5px] h-20 bg-blue-300 rotate-[90deg] '></div>
-            </button>
+            <p className=''> scroll down</p>
+            <div className='absolute -left-12 w-[0.5px] h-20 bg-blue-300 rotate-[90deg] '></div>
+          </button>
         </div>
       </div>
     </div>
