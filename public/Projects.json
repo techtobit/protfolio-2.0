@@ -1,62 +1,122 @@
 [
   {
-  "project": "HITACHI",
-  "projectId" : "01",
-  "projectImg": "https://i.ibb.co/fXGtp65/hitachi.jpg",
-  "projectType": "MERN STACK",
-  "projectDiscription" : "Hello",
-  "liveApp" : "https://hitachi-manufacturer-website-client-side.vercel.app/",
-  "frontEndRepo" : "https://github.com/techtobit/HITACHI-MANUFACTURER-WEBSITE-ClientSide.git",
-  "backendRepo" : "https://github.com/techtobit/HITACHI-MANUFACTURER-WEBSITE-ServerSide"
- },
+    "project": "HITACHI",
+    "projectImg": "https://i.ibb.co/fXGtp65/hitachi.jpg",
+    "projectType": "mern",
+    "liveApp": "https://hitachi-manufacturer-website-client-side.vercel.app/",
+    "front_endRepo": "https://github.com/techtobit/HITACHI-MANUFACTURER-WEBSITE-ClientSide.git",
+    "backendRepo": "https://github.com/techtobit/HITACHI-MANUFACTURER-WEBSITE-ServerSide"
+  },
   {
-  "project": "Car Cutter",
-  "projectId" : "02",
-  "projectImg": "https://i.ibb.co/z80pH7g/carcutter.jpg ",
-  "projectType": "MERN STACK",
-  "projectDiscription" : "Hello",
-  "liveApp" : "https://warehouse-2e28c.web.app/",
-  "frontEndRepo" : "https://github.com/techtobit/Car-Cutter-FullStack-Website-Client-Side",
-  "backendRepo" : "https://github.com/techtobit/Car-Cutter-FullStack-Website-ServerSide"
- },
-     {
-  "project": "Edu Vibe",
-  "projectId" : "06",
-  "projectImg": "https://i.ibb.co/09DyVbK/eduv.jpg",
-  "projectType": "FrontEnd",
-   "projectDiscription" : "Hello",
-  "liveApp" : "https://edu-co-cc85b.firebaseapp.com/",
-  "frontEndRepo" : "https://github.com/techtobit/Edu-Vibe-Educational-Website",
-  "backendRepo" : ""
- },
+    "project": "Car Cutter",
+    "projectImg": "https://i.ibb.co/z80pH7g/carcutter.jpg ",
+    "projectType": "mern",
+    "liveApp": "https://warehouse-2e28c.web.app/",
+    "front_endRepo": "https://github.com/techtobit/Car-Cutter-FullStack-Website-Client-Side",
+    "backendRepo": "https://github.com/techtobit/Car-Cutter-FullStack-Website-ServerSide"
+  },
   {
-  "project": "Busibud",
-  "projectId" : "04",
-  "projectImg": "https://i.ibb.co/HYR1pMG/Busibud.jpg",
-  "projectType": "FrontEnd",
-   "projectDiscription" : "Hello",
-  "liveApp" : "https://busibud-techtobit.vercel.app/",
-  "frontEndRepo" : "https://github.com/techtobit/Busibud",
-  "backendRepo" : ""
- },
+    "project": "Poysha Pay",
+    "projectImg": "https://i.ibb.co/YTQDpsX/poyshapay.jpg",
+    "projectType": "mern",
+    "liveApp": "https://poysha-pay.web.app/",
+    "front_endRepo": "https://github.com/grnisna/POYSHA-pay/tree/dashboard/ashraf",
+    "backendRepo": "https://i.ibb.co/YTQDpsX/poyshapay.jpg"
+  },
   {
-  "project": "Todo App",
-  "projectId" : "05",
-  "projectImg": "https://i.ibb.co/sR69MMG/TodoApp.jpg",
-  "projectType": "MERN STACK",
-  "projectDiscription" : "Hello",
-  "liveApp" : "https://todo-app-two-ivory.vercel.app/",
-  "frontEndRepo" : "https://github.com/techtobit/TodoApp",
-  "backendRepo" : "https://github.com/techtobit/Todo-App-Backend"
- },
+    "project": "Todo App",
+    "projectImg": "https://i.ibb.co/sR69MMG/TodoApp.jpg",
+    "projectType": "mern",
+    "liveApp": "https://todo-app-two-ivory.vercel.app/",
+    "front_endRepo": "https://github.com/techtobit/TodoApp",
+    "backendRepo": "https://github.com/techtobit/Todo-App-Backend"
+  },
   {
-  "project": "Poysha Pay",
-  "projectId" : "03",
-  "projectImg": "https://i.ibb.co/YTQDpsX/poyshapay.jpg",
-  "projectType": "Full Stack",
-  "projectDiscription" : "Hello",
-  "liveApp" : "https://poysha-pay.web.app/",
-  "frontEndRepo" : "https://github.com/grnisna/POYSHA-pay/tree/dashboard/ashraf",
-  "backendRepo" : "https://i.ibb.co/YTQDpsX/poyshapay.jpg"
- }
+    "project": "Library MS System",
+    "projectImg": "./projects_image/lms.png",
+    "projectType": "django",
+    "liveApp": "https://library-ms-p5si.onrender.com/",
+    "front_endRepo": "https://github.com/techtobit/lms"
+  },
+  {
+    "project": "House Hold",
+    "projectImg": "./projects_image/household.png",
+    "projectType": "django",
+    "liveApp": "https://house-hold-front-end.vercel.app/",
+    "front_endRepo": "https://github.com/techtobit/TodoApp",
+    "backendRepo": "https://github.com/techtobit/Todo-App-Backend"
+  },
+  {
+    "project": "Edu Vibe",
+    "projectImg": "https://i.ibb.co/09DyVbK/eduv.jpg",
+    "projectType": "front_end",
+    "liveApp": "https://edu-co-cc85b.firebaseapp.com/",
+    "front_endRepo": "https://github.com/techtobit/Edu-Vibe-Educational-Website"
+  },
+  {
+    "project": "Wppool",
+    "projectImg": "./projects_image/wppool.png",
+    "projectType": "front_end",
+    "liveApp": "https://wppoool.netlify.app/",
+    "front_endRepo": "https://github.com/techtobit/Busibud"
+  },
+  {
+    "project": "Busibud",
+    "projectImg": "https://i.ibb.co/HYR1pMG/Busibud.jpg",
+    "projectType": "front_end",
+    "liveApp": "https://busibud-techtobit.vercel.app/",
+    "front_endRepo": "https://github.com/techtobit/wppool"
+  },
+  {
+    "project": "Convention Center",
+    "projectImg": "./projects_image/convention.png",
+    "projectType": "front_end",
+    "liveApp": "https://cranky-carson-c98032.netlify.app/",
+    "front_endRepo": "https://github.com/techtobit/wppool"
+  },
+  {
+    "project": "Mobile Shop",
+    "projectImg": "./projects_image/phone_shop.png",
+    "projectType": "front_end",
+    "liveApp": "https://animated-medovik-0790f9.netlify.app/",
+    "front_endRepo": "https://github.com/techtobit/wppool"
+  },
+  {
+    "project": "Nike E-commerce",
+    "projectImg": "./projects_image/nike.png",
+    "projectType": "front_end",
+    "liveApp": "https://nikee-landing.netlify.app/",
+    "front_endRepo": "https://github.com/techtobit/wppool"
+  },
+
+
+  {
+    "project": "Stock Market",
+    "projectImg": "./projects_image/stock.png",
+    "projectType": "api",
+    "liveApp": "https://github.com/techtobit/StockMarket",
+    "front_endRepo": "https://github.com/techtobit/wppool"
+  },
+  {
+    "project": "Insta Story",
+    "projectImg": "./projects_image/sotry.png",
+    "projectType": "api",
+    "liveApp": "https://confident-saha-d731aa.netlify.app/",
+    "front_endRepo": "https://github.com/techtobit/wppool"
+  },
+  {
+    "project": "YouTube",
+    "projectImg": "./projects_image/youtube.png",
+    "projectType": "api",
+    "liveApp": "https://condescending-ardinghelli-a56222.netlify.app/",
+    "front_endRepo": "https://github.com/techtobit/wppool"
+  },
+  {
+    "project": "Real Time Weather",
+    "projectImg": "./projects_image/weather.png",
+    "projectType": "api",
+    "liveApp": "https://clever-wescoff-864cc9.netlify.app/?",
+    "front_endRepo": "https://github.com/techtobit/wppool"
+  }
+
 ]
