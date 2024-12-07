@@ -7,7 +7,8 @@ import html_css from '../Assets/Certificate/HTML CSS JS .jpg'
 import full_stack from '../Assets/Certificate/Full Stack Web Development.jpg'
 import effective from '../Assets/Certificate/Effective.jpg';
 import intern from '../Assets/Certificate/intership.jpg';
-import algile from '../Assets/Certificate/Agile.jpg'
+import algile from '../Assets/Certificate/Agile.jpg';
+import hackerRankCss from '../Assets/Certificate/css.png';
 
 
 const Certificate = () => {
@@ -85,6 +86,14 @@ const Certificate = () => {
 			year: "2023",
 			courseName: "Internship",
 			image: `${intern}`,
+			description:
+				"The Russian offensive in the Carpathians begins. It will continue until April 12.",
+			link: "#",
+		},
+		{
+			year: "2022",
+			courseName: "CSS",
+			image: `${hackerRankCss}`,
 			description:
 				"The Russian offensive in the Carpathians begins. It will continue until April 12.",
 			link: "#",
