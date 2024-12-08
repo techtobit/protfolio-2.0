@@ -13,13 +13,6 @@
 
 
 
-.transition-all {
-  transition: all 0.3s ease-in-out;
-}
-
-.shadow-lg {
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-}
 
 *{
  margin: 0;
@@ -31,7 +24,6 @@ body{
  font-family: $font-grotesk;
 	background-color: #ffffffef;
 	color: $navy;
-	scroll-behavior: none;
 }
 
 h1{                                                                                         
@@ -62,9 +54,6 @@ h2{
 	}
 }
 
-#slider_width{
-	// width: 100px;
-}
 
 @media only screen and (max-width: 425px){
 	h1{
