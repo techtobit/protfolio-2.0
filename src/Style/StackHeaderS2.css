@@ -1,0 +1,115 @@
+.stack-header {
+  width: 100%;
+  height: 16vh;
+}
+.stack-header .stack-card-title {
+  z-index: 100;
+  bottom: -30%;
+  left: 24%;
+}
+.stack-header .stack-shadow {
+  width: 80px;
+  height: 80px;
+  z-index: 0;
+  top: 98%;
+  left: 17%;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom right, hsl(233, 75%, 57%), hsl(238, 100%, 71%));
+  filter: blur(1.9em);
+}
+.stack-header .stack-shadow-two {
+  z-index: 0;
+  width: 80px;
+  height: 80px;
+  top: 98%;
+  right: 17%;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom right, hsl(233, 75%, 57%), hsl(238, 100%, 71%));
+  filter: blur(1.9em);
+}
+.stack-header .stack-list {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(160deg, hsla(238, 100%, 71%, 0.521), rgba(235, 230, 69, 0.411) 150%);
+  bottom: -16vh;
+  height: 100%;
+  width: 60%;
+}
+.stack-header .stack-list .skills {
+  background-color: #FBFCFC;
+  width: 100%;
+  height: 28vh;
+}
+
+.stack-header-bottom-section {
+  background-color: #ffffff;
+  height: 30vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .stack-header {
+    width: 100vw;
+    height: 10vh;
+  }
+  .stack-header .stack-shadow {
+    width: 80px;
+    height: 80px;
+    z-index: 0;
+    left: 86%;
+    top: 70vh;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, hsl(233, 75%, 57%), hsl(238, 100%, 71%));
+    filter: blur(2.5em);
+  }
+  .stack-header .stack-shadow-two {
+    width: 80px;
+    height: 80px;
+    z-index: 0;
+    left: 0;
+    top: 70vh;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, hsl(233, 75%, 57%), hsl(238, 100%, 71%));
+    filter: blur(2.5em);
+  }
+  .stack-header .stack-list {
+    background-color: #FBFCFC;
+    bottom: -16vh;
+    height: 90vh;
+    width: 90vw;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .stack-header {
+    width: 100vw;
+    height: 10vh;
+  }
+  .stack-header .stack-skill-icon {
+    width: 48px;
+    height: 48px;
+  }
+  .stack-header .stack-shadow {
+    width: 80px;
+    height: 80px;
+    z-index: 0;
+    bottom: 20vh;
+    right: 0;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, hsl(233, 75%, 57%), hsl(238, 100%, 71%));
+    filter: blur(2.5em);
+  }
+  .stack-header .stack-shadow-two {
+    z-index: 0;
+    bottom: 40vh;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, hsl(233, 75%, 57%), hsl(238, 100%, 71%));
+    filter: blur(2.5em);
+  }
+  .stack-header .stack-list {
+    background-color: #FBFCFC;
+    bottom: -16vh;
+    height: 20vh;
+    width: 90vw;
+  }
+}/*# sourceMappingURL=StackHeaderS2.css.map */

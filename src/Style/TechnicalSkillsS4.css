@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap");
+.TechnicalSkillsS4 .skills-icon {
+  width: 28px;
+  height: 28px;
+}
+.TechnicalSkillsS4 .skills-list:nth-child(1) {
+  border-right: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(2) {
+  border-right: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(3) {
+  border-right: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(4) {
+  border-right: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(5) {
+  border-right: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(7) {
+  border-right: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(8) {
+  border-right: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(9) {
+  border-right: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(10) {
+  border-right: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(11) {
+  border-right: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(7) {
+  border-top: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(8) {
+  border-top: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(9) {
+  border-top: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(10) {
+  border-top: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(11) {
+  border-top: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .skills-list:nth-child(12) {
+  border-top: 0.2px solid hsla(238, 100%, 71%, 0.5);
+}
+.TechnicalSkillsS4 .stack-shadow {
+  width: 60px;
+  height: 60px;
+  z-index: -1;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom right, hsl(233, 75%, 57%), hsl(238, 100%, 71%));
+  filter: blur(6.5em);
+}
+.TechnicalSkillsS4 .assets {
+  width: 450px;
+  height: 450px;
+}
+
+@media only screen and (max-width: 425px) {
+  .TechnicalSkillsS4 .skills-icon {
+    width: 32px;
+    height: 32px;
+  }
+}/*# sourceMappingURL=TechnicalSkillsS4.css.map */
