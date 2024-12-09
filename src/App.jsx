@@ -19,7 +19,7 @@ function App() {
       <HeroSection />
       <StackHeaderS2 />
       <AboutMeS3 />
-      {/* <WorkExperience/> */}
+      <WorkExperience/>
       {/* <Certificate/> */}
       {/* <TechnicalSkillsS4 /> */}
       {/* <ProjectsS5 /> */}
