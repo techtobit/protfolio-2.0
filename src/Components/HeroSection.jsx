@@ -1,5 +1,5 @@
 import { Player } from '@lottiefiles/react-lottie-player';
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import resume from '../Assets/MD ASHRAF UDDIN.pdf';
 import { FaLinkedinIn, FaGithub, FaYoutube, FaDownload } from "react-icons/fa";
 import { AiFillPlayCircle } from "react-icons/ai";
@@ -16,6 +16,46 @@ import typescript from '../Assets/Hero/typescript.png'
 import c from '../Assets/Hero/c-.png'
 
 const HeroSection = () => {
+
+  const scrambleRef = useRef(null);
+
+  const scrambleText = (element, duration = 3000) => {
+    const chars = "!<>-_\\/[]{}—=+*^?#";
+    const originalText = element.innerText || "";
+    const textLength = Math.max(originalText.length);
+    let scrambleInterval;
+    let startTime;
+
+    const scramble = () => {
+      const now = Date.now();
+      const progress = Math.min((now - startTime) / duration, 1);
+
+      let scrambledText = "";
+      for (let i = 0; i < textLength; i++) {
+        if (i < progress * originalText.length) {
+          scrambledText += originalText[i] || "";
+        } else {
+          scrambledText += chars[Math.floor(Math.random() * chars.length)];
+        }
+      }
+
+      element.innerText = scrambledText;
+
+      if (progress === 1) {
+        clearInterval(scrambleInterval); // End animation
+      }
+    };
+
+    startTime = Date.now();
+    scrambleInterval = setInterval(scramble, 50);
+  };
+
+  useEffect(() => {
+    if (scrambleRef.current) {
+      scrambleText(scrambleRef.current);
+    }
+  }, []);
+
   return (
     <div className='HeroSection lg:h-[92vh] h-[100vh] flex justify-center relative'>
       <div className="background-shadow absolute z-10 opacity-40 "></div>
@@ -34,7 +74,7 @@ const HeroSection = () => {
           <span className='text-center hover:animate-shake'>
             <h2 className='tracking-[0.1em]'>Hello ,</h2>
             <h1 className='font-bold '>I'm <span className='text-blue-100 underline uppercase'>Md Ashraf Uddin</span></h1>
-            <h2 className=''>Junior Software Engineer</h2>
+            <h2 ref={scrambleRef} id="scrambleText" className='scramble'>Junior Software Engineer</h2>
           </span>
           <p className='pt-[2%] lg:w-[50%] text-justify'>I'm thrilled to welcome you to my portfolio! As an engineer, I take joy in creating complex and innovative solutions. Through this portfolio, I aim to share my knowledge and skill set with you. Feel free to explore, learn more about me, download my resume, and watch intro video for additional insights .</p>
           <div className="btns flex  gap-4 lg:pt-[3%] pt-[4%]">

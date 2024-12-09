@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const ProjectList = () => {
+const useProjectList = () => {
   const [projects, setProjects] = useState([])
   useEffect(() => {
     fetch('Projects.json')
@@ -10,4 +10,4 @@ const ProjectList = () => {
   return [projects]
 };
 
-export default ProjectList;
+export default useProjectList;

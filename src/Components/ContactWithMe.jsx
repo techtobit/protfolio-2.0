@@ -6,8 +6,8 @@ import mailSend from '../Assets/mailSend.json'
 import '../Style/Main.scss';
 import { FaPhoneAlt, FaEnvelope, FaHome, FaLinkedinIn, FaGithub, FaWhatsappSquare, FaYoutube, FaClock } from "react-icons/fa";
 import { Player } from '@lottiefiles/react-lottie-player';
-import MainTitle from './Shared/SectionTitle/MainTitle';
-import SubTitle from './Shared/SectionTitle/SubTitle';
+import MainTitle from './Shared/MainTitle';
+import SubTitle from './Shared/SubTitle';
 const ContactWithMe = () => {
   const [submitLoading, setSubmitLoading] = useState(false)
   const form = useRef();

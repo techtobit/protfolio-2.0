@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import ProjectList from './Shared/ProjectList';
 import { FaRegPaperPlane, FaGithub } from "react-icons/fa";
 import '../Style/Main.scss'
-import MainTitle from './Shared/SectionTitle/MainTitle';
-import SubTitle from './Shared/SectionTitle/SubTitle';
+import MainTitle from './Shared/MainTitle';
+import SubTitle from './Shared/SubTitle';
+import useProjectList from './Hook/useProjectList';
 
 const ProjectsS5 = () => {
-  const [projects] = ProjectList();
+  const [projects] = useProjectList();
 
   const [filterProjects, setFilterProjects] = useState('front_end')
 

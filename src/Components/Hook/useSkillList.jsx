@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const SkillList = () => {
+const useSkillList = () => {
  const [skillsIcons, setSkillsIcons] = useState([])
  useEffect(() => {
   fetch('MySkills.json')
@@ -10,4 +10,4 @@ const SkillList = () => {
  return [skillsIcons]
 };
 
-export default SkillList;
+export default useSkillList;

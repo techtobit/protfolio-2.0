@@ -5,8 +5,8 @@ import me from '../Assets/AboutMe/ashraf-uddin-s1.jpg'
 import compliedProjects from '../Assets/AboutMe/complited.png'
 import teamProject from '../Assets/AboutMe/team-project.png'
 import contents from '../Assets/AboutMe/content.png'
-import MainTitle from './Shared/SectionTitle/MainTitle';
-import SubTitle from './Shared/SectionTitle/SubTitle';
+import MainTitle from './Shared/MainTitle';
+import SubTitle from './Shared/SubTitle';
 
 
 const AboutMeS3 = () => {

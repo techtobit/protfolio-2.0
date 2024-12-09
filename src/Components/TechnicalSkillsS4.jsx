@@ -1,18 +1,16 @@
 import React, { useEffect, useRef } from 'react';
 import '../Style/Main.scss';
 import '../Style/TechnicalSkillsS4.scss';
-import SkillList from './Shared/SkillList';
-import MainTitle from './Shared/SectionTitle/MainTitle';
-import SubTitle from './Shared/SectionTitle/SubTitle';
+import MainTitle from './Shared/MainTitle';
+import SubTitle from './Shared/SubTitle';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
-// import ScrollSmoother from "gsap-trial/ScrollSmoother";
-// import { ScrollSmoother } from "gsap/ScrollSmoother";
+import useSkillList from './Hook/useSkillList';
 
 
 
 const TechnicalSkillsS4 = () => {
-  const [skillsIcons] = SkillList();
+  const [skillsIcons] = useSkillList()
 
   const wrapperRef = useRef(null)
   const contentRef = useRef(null)

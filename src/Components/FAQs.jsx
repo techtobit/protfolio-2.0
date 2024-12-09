@@ -2,8 +2,8 @@ import { Player } from '@lottiefiles/react-lottie-player';
 import React from 'react';
 import FAQsLoti from '../Assets/FAQs.json'
 import '../Style/Main.scss'
-import MainTitle from './Shared/SectionTitle/MainTitle';
-import SubTitle from './Shared/SectionTitle/SubTitle';
+import MainTitle from './Shared/MainTitle';
+import SubTitle from './Shared/SubTitle';
 
 const FAQs = () => {
   return (
