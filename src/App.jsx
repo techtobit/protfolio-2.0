@@ -19,12 +19,12 @@ function App() {
       <HeroSection />
       <StackHeaderS2 />
       <AboutMeS3 />
-      <WorkExperience/>
-      <Certificate/>
-      <TechnicalSkillsS4 />
-      <ProjectsS5 />
-      <FAQs />
-      <ContactWithMe />
+      {/* <WorkExperience/> */}
+      {/* <Certificate/> */}
+      {/* <TechnicalSkillsS4 /> */}
+      {/* <ProjectsS5 /> */}
+      {/* <FAQs /> */}
+      {/* <ContactWithMe /> */}
       <Toaster />
     </div>
   )

@@ -31,8 +31,8 @@ const HeroSection = () => {
         <img src={c} className='w-10 absolute lg:top-[32%] top-[16%] lg:right-[4%] right-[7%] rotate-[-40deg] opacity-50' />
         <img src={react} className='w-14 absolute lg:top-[10%] top-[15%] lg:left-[16%] left-[6%] rotate-[-10deg] opacity-50' />
         <img src={mysql} className='w-10 absolute lg:top-[10%] top-[9%] lg:right-[16%] right-[18%] lg:rotate-[-10deg] rotate-[10deg] opacity-100' />
-        <img src={javascript} className='w-10 absolute lg:bottom-[6%] top-[5%] lg:left-[10%] left-[35%] rotate-[-30deg] opacity-50' />
-        <img src={aws} className='w-10 absolute lg:bottom-[6%] top-[24%] lg:right-[10%] right-[3%] rotate-[-30deg] opacity-50' />
+        <img src={javascript} className='w-10 absolute lg:bottom-[6%] bottom-[90%] lg:left-[10%] left-[35%] rotate-[-30deg] opacity-50' />
+        <img src={aws} className='w-10 absolute lg:bottom-[6%] bottom-[72%] lg:right-[10%] right-[3%] rotate-[-30deg] opacity-50' />
       </div>
       <div className="hero sections lg:gap-10 gap-2 z-20 absolute flex  w-full self-center lg:flex-row flex-col-reverse items-center justify-items-center justify-around ">
         <div className="hero-data  text-blue-300 flex flex-col justify-center items-center ">

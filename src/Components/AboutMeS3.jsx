@@ -16,7 +16,7 @@ const AboutMeS3 = () => {
         <MainTitle className=''><span className='font-bold text-3xl uppercase'>About <span className='text-blue-200'>Me</span></span></MainTitle>
         <SubTitle>Short Brief About Me 💆‍♂️.</SubTitle>
       </div>
-      <div className="my-data lg:pt-20 lg:px-16 px-6 grid lg:grid-cols-3 grid-cols-1 justify-center items-center">
+      <div className="my-data lg:pt-10 lg:px-16 px-6 grid lg:grid-cols-3 grid-cols-1 justify-center items-center">
         <div className="me flex justify-center relative lg:py-0 py-10">
           {/* <div className="avatar-bg absolute"></div>
      <div className="avatar-bg2 absolute"></div> */}
