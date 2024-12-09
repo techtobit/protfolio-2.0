@@ -1,6 +1,7 @@
 import { gsap } from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 import React, { useEffect, useRef } from 'react';
+import { useScrambleText } from "../Hook/useScrambleText";
 
 
 const extractText = (children) => {
@@ -17,47 +18,14 @@ gsap.registerPlugin();
 const MainTitle = ({ children }) => {
 
   const scrambleRef = useRef(null);
+  // const plainText = extractText(children);
 
-  const scrambleText = (element, duration = 3000) => {
-    const chars = "!<>-_\\/[]{}—=+*^?#";
-    const originalText = element.innerText || "";
-    const textLength = Math.max(originalText.length);
-    let scrambleInterval;
-    let startTime;
+  useScrambleText(scrambleRef, 4000)
 
-    const scramble = () => {
-      const now = Date.now();
-      const progress = Math.min((now - startTime) / duration, 1);
-
-      let scrambledText = "";
-      for (let i = 0; i < textLength; i++) {
-        if (i < progress * originalText.length) {
-          scrambledText += originalText[i] || "";
-        } else {
-          scrambledText += chars[Math.floor(Math.random() * chars.length)];
-        }
-      }
-
-      element.innerText = scrambledText;
-
-      if (progress === 1) {
-        clearInterval(scrambleInterval); // End animation
-      }
-    };
-
-    startTime = Date.now();
-    scrambleInterval = setInterval(scramble, 50);
-  };
-
-  useEffect(() => {
-    if (scrambleRef.current) {
-      scrambleText(scrambleRef.current);
-    }
-  }, []);
 
   return (
     <div className='flex justify-center'>
-      <h4 ref={scrambleRef} className='text-xl font-bold '>{children}</h4>
+      <h4 ref={scrambleRef} className='text-3xl font-bold '>{children}</h4>
     </div>
   );
 };

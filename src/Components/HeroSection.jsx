@@ -14,47 +14,12 @@ import python from '../Assets/Hero/python.png'
 import aws from '../Assets/Hero/aws.png'
 import typescript from '../Assets/Hero/typescript.png'
 import c from '../Assets/Hero/c-.png'
+import { useScrambleText } from './Hook/useScrambleText';
 
 const HeroSection = () => {
 
   const scrambleRef = useRef(null);
-
-  const scrambleText = (element, duration = 3000) => {
-    const chars = "!<>-_\\/[]{}—=+*^?#";
-    const originalText = element.innerText || "";
-    const textLength = Math.max(originalText.length);
-    let scrambleInterval;
-    let startTime;
-
-    const scramble = () => {
-      const now = Date.now();
-      const progress = Math.min((now - startTime) / duration, 1);
-
-      let scrambledText = "";
-      for (let i = 0; i < textLength; i++) {
-        if (i < progress * originalText.length) {
-          scrambledText += originalText[i] || "";
-        } else {
-          scrambledText += chars[Math.floor(Math.random() * chars.length)];
-        }
-      }
-
-      element.innerText = scrambledText;
-
-      if (progress === 1) {
-        clearInterval(scrambleInterval); // End animation
-      }
-    };
-
-    startTime = Date.now();
-    scrambleInterval = setInterval(scramble, 50);
-  };
-
-  useEffect(() => {
-    if (scrambleRef.current) {
-      scrambleText(scrambleRef.current);
-    }
-  }, []);
+  useScrambleText(scrambleRef, 4000)
 
   return (
     <div className='HeroSection lg:h-[92vh] h-[100vh] flex justify-center relative'>
@@ -95,7 +60,7 @@ const HeroSection = () => {
             <div className='hover:text-white-200 text-blue-100 bg-white-200 hover:bg-blue-300 rounded-full w-[32px] h-[32px] p-[8px] '><a href="https://www.youtube.com/channel/UC0pIXFHsiHUODADFzUQe_Tg" target="_blank"><FaYoutube /></a></div>
 
           </div>
-          <button className='flex flex-col absolute rotate-[90deg] hover:translate-y-6 right-0 -bottom-[26%]  justify-center '>
+          <button className='flex flex-col  absolute !rotate-[90deg]  hover:translate-y-6 right-0 -bottom-[26%]  justify-center '>
             <p className=''> scroll down</p>
             <div className='absolute -left-12 w-[0.5px] h-20 bg-blue-300 rotate-[90deg] '></div>
           </button>
