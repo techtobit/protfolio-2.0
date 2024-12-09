@@ -28,11 +28,11 @@ const ProjectsS5 = () => {
       </div>
       <div className="background-shadow opacity-30 w-[100%] h-[100%] z-0 absolute"></div>
       
-      <div className='bg-white-100 z-10 w-[60%] flex justify-center py-[5px] rounded-md'>
-        <div className='flex gap-10 justify-start items-start'>
-          <button onClick={() => setFilterProjects('front_end')} className=' bg-blue-100 !cursor-pointer hover:bg-blue-200 flex justify-center items-center px-2 py-[5px] rounded-md text-white-200 '>FORNT END </button>
-          <button onClick={() => setFilterProjects('mern')} className=' bg-blue-100 !cursor-pointer hover:bg-blue-200 flex justify-center items-center px-2 py-[5px] rounded-md text-white-200 '>MERN STACK </button>
-          <button onClick={() => setFilterProjects('django')} className=' bg-blue-100 !cursor-pointer hover:bg-blue-200 flex justify-center items-center px-2 py-[5px] rounded-md text-white-200 '>DJANGO </button>
+      <div className='bg-white-100 z-10 lg:w-[60%] w-[95%] flex lg:flex-none flex-wrap items-center justify-center py-[5px] my-10 rounded-md'>
+        <div className='flex lg:gap-10 gap-4 lg:flex-none flex-wrap  justify-center'>
+          <button onClick={() => setFilterProjects('front_end')} className=' bg-blue-100 !cursor-pointer hover:bg-blue-200 flex justify-center items-center px-2 py-[5px] rounded-md text-white-200 '>Frontend</button>
+          <button onClick={() => setFilterProjects('mern')} className=' bg-blue-100 !cursor-pointer hover:bg-blue-200 flex justify-center items-center px-2 py-[5px] rounded-md text-white-200 '>MernStack </button>
+          <button onClick={() => setFilterProjects('django')} className=' bg-blue-100 !cursor-pointer hover:bg-blue-200 flex justify-center items-center px-2 py-[5px] rounded-md text-white-200 '>Djnago </button>
           <button onClick={() => setFilterProjects('api')} className=' bg-blue-100 !cursor-pointer hover:bg-blue-200 flex justify-center items-center px-2 py-[5px] rounded-md text-white-200 '>API </button>
         </div>
       </div>

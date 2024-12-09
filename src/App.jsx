@@ -16,15 +16,15 @@ function App() {
   return (
 
     <div className='app' >
-      {/* <HeroSection /> */}
-      {/* <StackHeaderS2 /> */}
+      {/* <HeroSection />
+      <StackHeaderS2 />
       <AboutMeS3 />
       <WorkExperience/>
       <Certificate/>
-      <TechnicalSkillsS4 />
-      {/* <ProjectsS5 /> */}
-      {/* <FAQs /> */}
-      {/* <ContactWithMe /> */}
+      <TechnicalSkillsS4 /> */}
+      <ProjectsS5 />
+      <FAQs />
+      <ContactWithMe />
       <Toaster />
     </div>
   )
