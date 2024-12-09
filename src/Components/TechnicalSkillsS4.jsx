@@ -81,9 +81,9 @@ const TechnicalSkillsS4 = () => {
         <div ref={contentRef}>
           <div className="accordions gap-4 flex flex-col justify-center items-center">
             {/* skill-section-one  */}
-            <div className='skill-section-one accordion w-[60%] p-6 bg-white-100 rounded-xl'>
-              <p className='border-l-4 p-2 font-bold'>Front End Skill Set</p>
-              <div className="list skills-icons grid grid-cols-6 h-[12rem]">
+            <div className='skill-section-one accordion lg:w-[60%] w-[95%] h-auto lg:p-6 bg-white-100 rounded-xl'>
+              <p className='border-l-4 p-2 font-bold rounded-t-xl'>Front End Skill Set</p>
+              <div className="list skills-icons grid lg:grid-cols-6 grid-cols-6 h-[12rem]">
                 {
                   skillsIcons.slice(0, 12).map((frontEnd, index) => {
                     return (
@@ -98,9 +98,9 @@ const TechnicalSkillsS4 = () => {
               </div>
             </div>
             {/* skill-section-two  */}
-            <div className="skill-section-two accordion w-[60%] z-10 p-6 bg-white-100 rounded-xl">
-            <p className='border-l-4 p-2 font-bold'>Back End Skill Set</p>
-              <div className="list skills-icons grid grid-cols-6 h-[12rem]">
+            <div className="skill-section-two accordion lg:w-[60%] w-[95%] z-10 lg:p-6 bg-white-100 rounded-xl">
+            <p className='border-l-4 p-2 font-bold rounded-t-xl '>Back End Skill Set</p>
+              <div className="list skills-icons grid lg:grid-cols-6 grid-cols-6 h-[12rem]">
                 {
                   skillsIcons.slice(12, 24).map((backEnd, index) => {
                     return (
@@ -115,8 +115,8 @@ const TechnicalSkillsS4 = () => {
               </div>
             </div>
             {/* skill-section-three  */}
-            <div className="skill-section-three accordion w-[60%] z-10 p-6 bg-white-100 rounded-xl">
-            <p className='border-l-4 p-2 font-bold'>Tools</p>
+            <div className="skill-section-three accordion lg:w-[60%] w-[95%] z-10 lg:p-6 bg-white-100 rounded-xl">
+            <p className='border-l-4 p-2 font-bold rounded-t-xl'>Tools</p>
               <div className="list skills-icons grid grid-cols-6 h-[12rem]">
                 {
                   skillsIcons.slice(24, 36).map((techTools, index) => {
