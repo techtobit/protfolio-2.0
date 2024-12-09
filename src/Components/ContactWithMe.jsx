@@ -38,7 +38,7 @@ const ContactWithMe = () => {
 
 
   return (
-    <div className='lg:px-20 px-4 py-10 '>
+    <div className='mt-[10%]'>
       <div className="section-title text-center lg:pb-20" >
         <MainTitle className=''><span className='font-bold text-3xl uppercase'>Contact <span className='text-blue-200'>Me</span></span></MainTitle>
         <SubTitle>Mail & Call Any Time 📧.</SubTitle>

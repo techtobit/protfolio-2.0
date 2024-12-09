@@ -8,7 +8,6 @@ import StackHeaderS2 from './Components/StackHeaderS2'
 import TechnicalSkillsS4 from './Components/TechnicalSkillsS4'
 import './Style/Main.scss'
 import './Style/StackHeaderS2.scss'
-import SeectionAnimate from './Components/SeectionAnimate'
 import WorkExperience from './Components/WorkExperience'
 import Certificate from './Components/Certificate'
 
@@ -17,15 +16,15 @@ function App() {
   return (
 
     <div className='app' >
-      {/* <HeroSection /> */}
-      {/* <StackHeaderS2 /> */}
-      {/* <AboutMeS3 /> */}
-      {/* <WorkExperience/> */}
-      {/* <Certificate/> */}
+      <HeroSection />
+      <StackHeaderS2 />
+      <AboutMeS3 />
+      <WorkExperience/>
+      <Certificate/>
       <TechnicalSkillsS4 />
       <ProjectsS5 />
-      {/* <FAQs /> */}
-      {/* <ContactWithMe /> */}
+      <FAQs />
+      <ContactWithMe />
       <Toaster />
     </div>
   )

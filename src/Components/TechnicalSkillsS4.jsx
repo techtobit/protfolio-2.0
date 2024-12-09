@@ -6,6 +6,8 @@ import MainTitle from './Shared/SectionTitle/MainTitle';
 import SubTitle from './Shared/SectionTitle/SubTitle';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+// import ScrollSmoother from "gsap-trial/ScrollSmoother";
+// import { ScrollSmoother } from "gsap/ScrollSmoother";
 
 
 
@@ -36,10 +38,10 @@ const TechnicalSkillsS4 = () => {
         scrub: 1,
         // ease: 'linear'
         snap: {
-          snapTo: 'labels', // snap to the closest label in the timeline
-          duration: { min: 0.2, max: 5 }, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
-          delay: 0.2, // wait 0.2 seconds from the last scroll event before doing the snapping
-          ease: 'power1.inOut' // the ease of the snap animation ("power3" by default)
+          snapTo: 'labels', 
+          duration: { min: 0.2, max: 5 },
+          delay: 0.2,
+          ease: 'power1.inOut' 
         }
       },
 
@@ -71,7 +73,7 @@ const TechnicalSkillsS4 = () => {
 
 
   return (
-    <div className='TechnicalSkillsS4 h-ldh'>
+    <div className='TechnicalSkillsS4 mt-[10%] h-ldh'>
       <div className="section-title text-center ">
         <MainTitle className=''><span className='font-bold text-3xl uppercase'>Technical <span className='text-blue-200'>Skills</span></span></MainTitle>
         <SubTitle>Web Development & Coding Is Fun 💻.</SubTitle>

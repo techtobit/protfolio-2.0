@@ -1,4 +1,3 @@
-
 @import './Variables.scss';
 @import './StackHeaderS2.scss';
 @import './AboutMeS3.scss';
@@ -12,72 +11,75 @@
 @tailwind utilities;
 
 
-
-
-*{
- margin: 0;
- padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
 
 
-body{
- font-family: $font-grotesk;
+body {
+	font-family: $font-grotesk;
 	background-color: #ffffffef;
 	color: $navy;
 }
 
-h1{                                                                                         
- font-size:  $lg;
- font-weight: $font-w-bold;
-}
-h2{
- font-size: $lm;
+
+h1 {
+	font-size: $lg;
+	font-weight: $font-w-bold;
 }
 
-.app{
-	overflow-x: hidden !important;
+h2 {
+	font-size: $lm;
 }
-.sections{
+
+.app {
+	overflow-x: hidden !important;
+
+}
+
+
+.sections {
 	padding: 0 $lg;
 }
-.sec-h-w{
+
+.sec-h-w {
 	width: 100vw;
 	height: 100vh;
 }
-.HeroSection{
+
+.HeroSection {
 	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
 }
 
-.HeroSection{
-	h2,h1{
-		line-height: $lg; 
+.HeroSection {
+
+	h2,
+	h1 {
+		line-height: $lg;
 	}
 }
 
 
-@media only screen and (max-width: 425px){
-	h1{
- font-size:  $mx;
- font-weight: $font-w-bold;
-}
-h2{
- font-size: $mx;
-}
-.HeroSection{
-	h2,h1{
-		line-height: normal; 
+@media only screen and (max-width: 425px) {
+	h1 {
+		font-size: $mx;
+		font-weight: $font-w-bold;
+	}
+
+	h2 {
+		font-size: $mx;
+	}
+
+	.HeroSection {
+
+		h2,
+		h1 {
+			line-height: normal;
+		}
+	}
+
+	.sections {
+		padding: 0 $s;
 	}
 }
-
-	.sections{
-	padding: 0 $s;
-}
-}
-
-
-
-
-
-
-
-

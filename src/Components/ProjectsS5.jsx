@@ -21,7 +21,7 @@ const ProjectsS5 = () => {
 
 
   return (
-    <div className='projects-showcase-section relative lg:p-20 p-4 grid  items-center justify-center justify-items-center'>
+    <div className='projects-showcase-section relative h-lvh grid  items-center justify-center justify-items-center'>
       <div className="section-title text-center">
         <MainTitle className=''><span className='font-bold text-3xl uppercase'>About <span className='text-blue-200'>Projects</span></span></MainTitle>
         <SubTitle>My most favorite projects 💡.</SubTitle>
