@@ -19,7 +19,7 @@ import { useScrambleText } from './Hook/useScrambleText';
 const HeroSection = () => {
 
   const scrambleRef = useRef(null);
-  // useScrambleText(scrambleRef, 4000)
+  useScrambleText(scrambleRef, 4000)
 
   return (
     <div className='HeroSection lg:h-[92vh] h-[100vh] flex justify-center relative'>
