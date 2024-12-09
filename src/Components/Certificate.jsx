@@ -54,49 +54,31 @@ const Certificate = () => {
 			year: "2021",
 			courseName: "Html CSS and Javascirpt",
 			image: `${html_css}`,
-			description:
-				"Assassination of Archduke Franz Ferdinand of Austria, heir to the Austro-Hungarian throne, who was killed in Sarajevo along with his wife Duchess Sophie by Bosnian Serb Gavrilo Princip.",
-			link: "#",
 		},
 		{
 			year: "2022",
 			courseName: "Full Stack Web Development",
 			image: `${full_stack}`,
-			description:
-				"Austria-Hungary seeks German support for a war against Serbia in case of Russian militarism. Germany gives assurances of support.",
-			link: "#",
 		},
 		{
 			year: "2022",
 			courseName: "Effect Listening",
 			image: `${effective}`,
-			description:
-				"The Russian offensive in the Carpathians begins. It will continue until April 12.",
-			link: "#",
 		},
 		{
 			year: "2022",
 			courseName: "Agile Team and Scrum Lead",
 			image: `${algile}`,
-			description:
-				"The Russian offensive in the Carpathians begins. It will continue until April 12.",
-			link: "#",
 		},
 		{
 			year: "2023",
 			courseName: "Internship",
 			image: `${intern}`,
-			description:
-				"The Russian offensive in the Carpathians begins. It will continue until April 12.",
-			link: "#",
 		},
 		{
 			year: "2022",
 			courseName: "CSS",
 			image: `${hackerRankCss}`,
-			description:
-				"The Russian offensive in the Carpathians begins. It will continue until April 12.",
-			link: "#",
 		},
 		// Add more data here
 	];
@@ -106,7 +88,7 @@ const Certificate = () => {
 
 
 	return (
-		<div className="slider-container ">
+		<div className="slider-container mt-10">
 			<Slider {...settings} className="">
 			{
 				timelineData.map((data)=> (
@@ -114,8 +96,8 @@ const Certificate = () => {
 					<div className="object-cover" >
 						<img  className="object-cover !w-[80rem] !h-[20rem]" src={data.image} />
 
-						<div className="flex items-center gap-2">
-							<h1>{data.year}</h1>
+						<div className="flex items-center gap-2 pt-4">
+							<p className="text-3xl font-bold">{data.year}</p>
 							<div className="h-[1px] w-[100%]  bg-blue-100 border-2-2 border-blue-300 h-full border"></div>
 						</div>
 						<span>{data.courseName}</span>

@@ -8,6 +8,7 @@ const WorkExperience = () => {
 					
 				<div className="border-2-2  absolute lg:left-[50%] border-blue-100 h-full border" ></div>
 				<h4 className='py-2 px-4 bg-blue-100 w-fit  absolute lg:left-[45.5%] font-bold'>Experience</h4>
+
 					<div className="lg:mb-8 my-8 flex lg:justify-between items-center w-full right-timeline">
 						<div className="order-1 lg:w-5/12"></div>
 						<div className="flex z-40 bg-blue-100 items-center lg:order-1 shadow-xl lg:static absolute lg:left-0 left-[.5%] w-8 h-8 rounded-full">
@@ -69,7 +70,7 @@ const WorkExperience = () => {
 					</div>
 
 
-					<div className="mb-8 flex justify-between lg:flex-row-reverse flex-row items-center w-full left-timeline">
+					<div className="lg:mb-8 mb-20 flex justify-between lg:flex-row-reverse flex-row items-center w-full left-timeline">
 						<div className="order-1 lg:w-5/12"></div>
 						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 lg:static absolute lg:left-0 left-[.5%] rounded-full">
 							<h1 className="mx-auto  text-white font-semibold text-lg">4</h1>
@@ -88,6 +89,8 @@ const WorkExperience = () => {
 						</div>
 					</div>
 					
+
+					<h4 className='py-2 px-4 bg-blue-100 w-fit  absolute lg:left-[45.5%] bottom-0 font-bold'>Certificate</h4>
 				</div>
 			</div>
 
