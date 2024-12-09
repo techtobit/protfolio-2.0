@@ -66,6 +66,21 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
+
+      <div className="stack-list grid grid-cols-3 justify-items-center items-center
+      lg:w-2/3 w-11/12 lg:h-[20vh] h-[14vh] absolute lg:bottom-[-10%] bottom-[-2%] bg-white-100 rounded-2xl drop-shadow-xl
+      ">
+        <p className='stack-card-title absolute top-3 lg:left-14 left-50 text-md font-bold underline'>Open to work as</p>
+        <div className="stack flex flex-col items-center lg:pb-0 lg:px-6 border-blue-50 lg:border-l-[0.4px] ">
+          <h3>Full Time</h3>
+        </div>
+        <div className="stack flex flex-col items-center  lg:pb-0 lg:px-6 border-blue-50 lg:border-l-[0.4px]">
+          <h3>Part Time</h3>
+        </div>
+        <div className="stack flex flex-col items-center lg:pb-0 lg:px-6 border-blue-50 lg:border-l-[0.4px]">
+          <h3>Contractual</h3>
+        </div>
+      </div>
     </div>
   );
 };

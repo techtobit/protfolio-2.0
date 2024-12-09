@@ -48,8 +48,8 @@
 
 @media only screen and (max-width: 768px){
 .stack-header{
-	width: 100vw;
-	height: 10vh;
+	// width: 100vw;
+	// height: 10vh;
 
   .stack-shadow{
    width: 80px;
@@ -72,9 +72,9 @@
   }
    .stack-list{
    background-color: #FBFCFC;
-   bottom: -16vh;
-   height: 90vh;
-   width: 90vw;
+  //  bottom: -16vh;
+  //  height: 90vh;
+  //  width: 90vw;
   }
 	}
 
@@ -85,8 +85,8 @@
 @media only screen and (max-width: 425px){
 	
 	.stack-header{
-	width: 100vw;
-	height: 10vh;
+	// width: 95vw;
+	// height: 10vh;
 		.stack-skill-icon{
 		width: 48px;
 		height: 48px;
@@ -111,10 +111,12 @@
 		background-image: linear-gradient(to bottom right,hsl(233, 75%, 57%), 	hsl(238, 100%, 71%));filter: blur(2.5em);
 }
 		.stack-list{
-		background-color: #FBFCFC;
-		bottom: -16vh;
-		height: 20vh;
-		width: 90vw;
+		// background-color: #FBFCFC;
+		// bottom: -16vh;
+		// margin: 10px;
+		// left: 60%;
+		// height: 20vh;
+		// width: 90vw;
 	}
 	}
 }
