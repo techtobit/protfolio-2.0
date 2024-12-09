@@ -17,7 +17,7 @@ function App() {
 
     <div className='app' >
       <HeroSection />
-      <StackHeaderS2 />
+      {/* <StackHeaderS2 /> */}
       <AboutMeS3 />
       <WorkExperience/>
       <Certificate/>
