@@ -7,7 +7,7 @@ import SubTitle from './Shared/SubTitle';
 
 const FAQs = () => {
   return (
-    <div className="faqs-section mt-[10%]">
+    <div className="faqs-section lg:mt-[10%] mt-[20%]">
       <div className="section-title text-center ">
         <MainTitle className=''><span className='font-bold text-3xl uppercase'>Most Asked <span className='text-blue-200'>Questions</span></span></MainTitle>
         <SubTitle>Short Screening FAQs 🔉.</SubTitle>

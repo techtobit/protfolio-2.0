@@ -11,7 +11,7 @@ import SubTitle from './Shared/SubTitle';
 
 const AboutMeS3 = () => {
   return (
-    <div className='about-me mt-[10%] grid justify-center'>
+    <div className='about-me lg:mt-[10%] mt-[20%] grid justify-center'>
       <div className="section-title text-center">
         <MainTitle className=''><span className='font-bold text-3xl uppercase'>About <span className='text-blue-200'>Me</span></span></MainTitle>
         <SubTitle>Short Brief About Me 💆‍♂️.</SubTitle>

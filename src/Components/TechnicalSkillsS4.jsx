@@ -71,7 +71,7 @@ const TechnicalSkillsS4 = () => {
 
 
   return (
-    <div className='TechnicalSkillsS4 mt-[10%] h-ldh'>
+    <div className='TechnicalSkillsS4 lg:mt-[10%] mt-[20%] h-ldh'>
       <div className="section-title text-center mb-2">
         <MainTitle className=''><span className='font-bold text-3xl uppercase'>Technical <span className='text-blue-200'>Skills</span></span></MainTitle>
         <SubTitle>Web Development & Coding Is Fun 💻.</SubTitle>

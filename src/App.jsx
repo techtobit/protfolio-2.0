@@ -16,12 +16,12 @@ function App() {
   return (
 
     <div className='app' >
-      {/* <HeroSection />
+      <HeroSection />
       <StackHeaderS2 />
       <AboutMeS3 />
       <WorkExperience/>
       <Certificate/>
-      <TechnicalSkillsS4 /> */}
+      <TechnicalSkillsS4 />
       <ProjectsS5 />
       <FAQs />
       <ContactWithMe />
