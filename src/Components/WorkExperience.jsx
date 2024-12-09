@@ -1,19 +1,19 @@
 import React from 'react'
-
 const WorkExperience = () => {
 	return (
 		<>
 
 			<div className="container bg-gray-200 mx-auto w-full h-full">
-				<div className="relative wrap overflow-hidden p-10 h-full">
+				<div className="relative wrap overflow-hidden lg:p-10 p-4 h-full">
 					
-				<div className="border-2-2  absolute left-[50%] border-blue-100 h-full border" ></div>
-					<div className="z- mb-8 flex justify-between items-center w-full right-timeline">
-						<div className="order-1 w-5/12"></div>
-						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 rounded-full">
-							<h1 className="mx-auto  font-semibold text-lg text-white">1</h1>
+				<div className="border-2-2  absolute lg:left-[50%] border-blue-100 h-full border" ></div>
+				<h4 className='py-2 px-4 bg-blue-100 w-fit  absolute lg:left-[45.5%] font-bold'>Experience</h4>
+					<div className="lg:mb-8 my-8 flex lg:justify-between items-center w-full right-timeline">
+						<div className="order-1 lg:w-5/12"></div>
+						<div className="flex z-40 bg-blue-100 items-center lg:order-1 shadow-xl lg:static absolute lg:left-0 left-[.5%] w-8 h-8 rounded-full">
+							<h1 className="mx-auto font-semibold text-lg text-white">1</h1>
 						</div>
-						<div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+						<div className="order-1 bg-gray-400 rounded-lg shadow-xl lg:w-5/12 px-6 py-4 lg:ml-0 ml-2">
 							<h3 className=" font-bold text-gray-800 text-xl">Intern Front End Developer</h3>
 							<h6 className="mb-3 font-bold text-gray-800 text-sm ]">Edufied
 								<span> | Jan 23 to Jun 23</span>
@@ -28,12 +28,12 @@ const WorkExperience = () => {
 						</div>
 					</div>
 
-					<div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-						<div className="order-1 w-5/12"></div>
-						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 rounded-full">
+					<div className="mb-8 flex justify-between lg:flex-row-reverse flex-row items-center w-full left-timeline">
+						<div className="order-1 lg:w-5/12"></div>
+						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 lg:static absolute lg:left-0 left-[.5%] rounded-full">
 							<h1 className="mx-auto text-white font-semibold text-lg">2</h1>
 						</div>
-						<div className="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+						<div className="order-1 bg-red-400 rounded-lg shadow-xl lg:w-5/12 px-6 py-4 lg:ml-0 ml-2">
 							<h3 className=" font-bold text-gray-800 text-xl">Front End Developer</h3>
 							<h6 className="mb-3 font-bold text-gray-800 text-sm ]">Edufied
 								<span> | Jun 23 to Oct 24</span>
@@ -50,11 +50,11 @@ const WorkExperience = () => {
 
 
 					<div className="mb-8 flex justify-between items-center w-full right-timeline">
-						<div className="order-1 w-5/12"></div>
-						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 rounded-full">
+						<div className="order-1 lg:w-5/12"></div>
+						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 lg:static absolute lg:left-0 left-[.5%] rounded-full">
 							<h1 className="mx-auto font-semibold text-lg text-white">3</h1>
 						</div>
-						<div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+						<div className="order-1 bg-gray-400 rounded-lg shadow-xl lg:w-5/12 px-6 py-4 lg:ml-0 ml-2">
 						<h3 className=" font-bold text-gray-800 text-xl">VOLUNTEER | Team and Scrum Master </h3>
 							<h6 className="mb-3 font-bold text-gray-800 text-sm ]">Programming Hero 
 								<span> | July-22 to Sep-22</span>
@@ -69,12 +69,12 @@ const WorkExperience = () => {
 					</div>
 
 
-					<div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-						<div className="order-1 w-5/12"></div>
-						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 rounded-full">
+					<div className="mb-8 flex justify-between lg:flex-row-reverse flex-row items-center w-full left-timeline">
+						<div className="order-1 lg:w-5/12"></div>
+						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 lg:static absolute lg:left-0 left-[.5%] rounded-full">
 							<h1 className="mx-auto  text-white font-semibold text-lg">4</h1>
 						</div>
-						<div className="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+						<div className="order-1 bg-red-400 rounded-lg shadow-xl lg:w-5/12 px-6 py-4 lg:ml-0 ml-2">
 						<h3 className=" font-bold text-gray-800 text-xl">WordPress Developer </h3>
 							<h6 className="mb-3 font-bold text-gray-800 text-sm ]"> Freelance
 								<span> | Sep-20 to Dec-21</span>

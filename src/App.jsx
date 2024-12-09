@@ -16,9 +16,9 @@ function App() {
   return (
 
     <div className='app' >
-      <HeroSection />
-      <StackHeaderS2 />
-      <AboutMeS3 />
+      {/* <HeroSection /> */}
+      {/* <StackHeaderS2 /> */}
+      {/* <AboutMeS3 /> */}
       <WorkExperience/>
       {/* <Certificate/> */}
       {/* <TechnicalSkillsS4 /> */}
