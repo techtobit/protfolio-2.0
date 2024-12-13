@@ -42,9 +42,9 @@
     "project": "House Hold",
     "projectImg": "./projects_image/household.png",
     "projectType": "django",
-    "liveApp": "https://house-hold-front-end.vercel.app/",
-    "front_endRepo": "https://github.com/techtobit/TodoApp",
-    "backendRepo": "https://github.com/techtobit/Todo-App-Backend"
+    "liveApp": "https://house-hold-theta.vercel.app/",
+    "front_endRepo": "https://github.com/techtobit/HouseHold_Front",
+    "backendRepo": "https://github.com/techtobit/houshold_backend_recoverd"
   },
   {
     "project": "Edu Vibe",
