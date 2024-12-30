@@ -19,9 +19,9 @@
     "project": "Poysha Pay",
     "projectImg": "https://i.ibb.co/YTQDpsX/poyshapay.jpg",
     "projectType": "mern",
-    "liveApp": "https://poysha-pay.web.app/",
-    "front_endRepo": "https://github.com/grnisna/POYSHA-pay/tree/dashboard/ashraf",
-    "backendRepo": "https://i.ibb.co/YTQDpsX/poyshapay.jpg"
+    "liveApp": "https://e-pay-beige.vercel.app/",
+    "front_endRepo": "https://github.com/techtobit/e-pay",
+    "backendRepo": "https://github.com/techtobit/POYSHAPAY_SERVER_MONGOOSE/tree/ashraf"
   },
   {
     "project": "Todo App",

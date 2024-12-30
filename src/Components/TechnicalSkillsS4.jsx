@@ -34,13 +34,13 @@ const TechnicalSkillsS4 = () => {
         // end:'bottom 20%+=100px',
         // end: 'bottom top',
         scrub: 1,
-        // ease: 'linear'
-        snap: {
-          snapTo: 'labels', 
-          duration: { min: 0.2, max: 5 },
-          delay: 0.2,
-          ease: 'power1.inOut' 
-        }
+        ease: 'linear'
+        // snap: {
+        //   snapTo: 'labels', 
+        //   duration: { min: 0.2, max: 5 },
+        //   delay: 0.2,
+        //   ease: 'power1.inOut' 
+        // }
       },
 
     });

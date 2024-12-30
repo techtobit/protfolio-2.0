@@ -36,7 +36,7 @@ const HeroSection = () => {
       </div>
       <div className="hero sections lg:gap-10 gap-2 z-20 absolute flex  w-full self-center lg:flex-row flex-col-reverse items-center justify-items-center justify-around ">
         <div className="hero-data  text-blue-300 flex flex-col justify-center items-center ">
-          <span className='text-center hover:animate-shake animate-infinite animate-duration-[20000ms]'>
+          <span className='text-center'>
             <h2 className='tracking-[0.1em]'>Hello ,</h2>
             <h1 className='font-bold  '>I'm <span className='text-blue-100 underline uppercase'>Md Ashraf Uddin</span></h1>
             <h2 ref={scrambleRef} id="scrambleText" className='scramble'>Junior Software Engineer</h2>
