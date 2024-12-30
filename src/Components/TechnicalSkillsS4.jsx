@@ -16,8 +16,6 @@ const TechnicalSkillsS4 = () => {
   const contentRef = useRef(null)
 
   useEffect(() => {
-    const accordionsHeight = document.querySelector(".accordions").offsetHeight;
-    const viewportHeight = window.innerHeight;
     gsap.registerPlugin(ScrollTrigger)
 
     const tl = gsap.timeline({
@@ -25,20 +23,15 @@ const TechnicalSkillsS4 = () => {
         trigger: '.accordions',
         pin: true,
         pinSpacing: true,
-        // markers: true,
-        // y:330,
-        // x:300,
         start: "top top",
-        // end: `+=${accordionsHeight + viewportHeight}px`,
         end: '+=500',
-        // end:'bottom 20%+=100px',
-        // end: 'bottom top',
         scrub: 1,
-        ease: 'linear'
+        ease: 'linear',
         // snap: {
         //   snapTo: 'labels', 
-        //   duration: { min: 0.2, max: 5 },
-        //   delay: 0.2,
+        //   duration: { min: 5, max: 15 },
+        //   delay: 5,
+        //   ease: 'linear',
         //   ease: 'power1.inOut' 
         // }
       },
