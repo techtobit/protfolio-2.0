@@ -55,7 +55,8 @@ const WorkExperience = () => {
 					</div> */}
 
 
-					<div className="mb-8 flex justify-between items-center w-full right-timeline">
+					<div className="mb-8 flex justify-between lg:flex-row-reverse flex-row items-center w-full left-timeline">
+{/* 					<div className="mb-8 flex justify-between items-center w-full right-timeline"> */}
 						<div className="order-1 lg:w-5/12"></div>
 						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 lg:static absolute lg:left-0 left-[.5%] rounded-full">
 							<h1 className="mx-auto font-semibold text-lg text-white-200">2</h1>
@@ -75,7 +76,8 @@ const WorkExperience = () => {
 					</div>
 
 
-					<div className="lg:mb-8 mb-20 flex justify-between lg:flex-row-reverse flex-row items-center w-full left-timeline">
+					<div className="mb-8 flex justify-between items-center w-full right-timeline"> 
+{/* 					<div className="lg:mb-8 mb-20 flex justify-between lg:flex-row-reverse flex-row items-center w-full left-timeline"> */}
 						<div className="order-1 lg:w-5/12"></div>
 						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 lg:static absolute lg:left-0 left-[.5%] rounded-full">
 							<h1 className="mx-auto  text-white-200 font-semibold text-lg">3</h1>
