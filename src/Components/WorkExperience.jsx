@@ -25,11 +25,16 @@ const WorkExperience = () => {
 								<li><b>Collaborated with 5 new front-end interns</b> and guided them to setup and understand workflow and codebase.</li>
 								<li>Provide daily & weekly reports on project progress, highlighting pros and cons for effective decision-making.</li>
 								<li>Conduct cross-browser and cross-platform testing to Optimize website performance and responsiveness.</li>
+								<li> Updated company’s  <b>WordPress websites components </b> by using Elementor developer tool.</li>
+								<li>Contributed to <b>build tools like Canva</b>, by multiple open sources like Konva & integrated third-party APIs.</li>
+								<li><b>Fixed bugs on Dev, Stage, and production</b> repositories and website’s related to front end.</li>
+								<li><b>Contributed with Task manager and QA, BE Team</b>, regarding test, assign and fix bugs and develop futures.</li>
+								<li>Partial provided feedback on converted Figma to Frontend by new inters and team members.</li>
 							</div>
 						</div>
 					</div>
 
-					<div className="mb-8 flex justify-between lg:flex-row-reverse flex-row items-center w-full left-timeline">
+{/* 					<div className="mb-8 flex justify-between lg:flex-row-reverse flex-row items-center w-full left-timeline">
 						<div className="order-1 lg:w-5/12"></div>
 						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 lg:static absolute lg:left-0 left-[.5%] rounded-full">
 							<h1 className="mx-auto text-white-200 font-semibold text-lg">2</h1>
@@ -46,14 +51,14 @@ const WorkExperience = () => {
 								<li><b>Contributed with Task manager and QA, BE Team</b>, regarding test, assign and fix bugs and develop futures.</li>
 								<li>Partial provided feedback on converted Figma to Frontend by new inters and team members.</li>
 							</div>
-						</div>
+						</div> */}
 					</div>
 
 
 					<div className="mb-8 flex justify-between items-center w-full right-timeline">
 						<div className="order-1 lg:w-5/12"></div>
 						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 lg:static absolute lg:left-0 left-[.5%] rounded-full">
-							<h1 className="mx-auto font-semibold text-lg text-white-200">3</h1>
+							<h1 className="mx-auto font-semibold text-lg text-white-200">2</h1>
 						</div>
 						<div className="order-1 bg-gray-400 rounded-lg shadow-xl lg:w-5/12 px-6 py-4 lg:ml-0 ml-2">
 						<h3 className=" font-bold text-gray-800 text-xl">VOLUNTEER | Team and Scrum Master </h3>
@@ -73,7 +78,7 @@ const WorkExperience = () => {
 					<div className="lg:mb-8 mb-20 flex justify-between lg:flex-row-reverse flex-row items-center w-full left-timeline">
 						<div className="order-1 lg:w-5/12"></div>
 						<div className="flex z-20 bg-blue-100 items-center order-1 shadow-xl w-8 h-8 lg:static absolute lg:left-0 left-[.5%] rounded-full">
-							<h1 className="mx-auto  text-white-200 font-semibold text-lg">4</h1>
+							<h1 className="mx-auto  text-white-200 font-semibold text-lg">3</h1>
 						</div>
 						<div className="order-1 bg-red-400 rounded-lg shadow-xl lg:w-5/12 px-6 py-4 lg:ml-0 ml-2">
 						<h3 className=" font-bold text-gray-800 text-xl">WordPress Developer </h3>
