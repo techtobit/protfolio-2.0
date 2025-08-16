@@ -51,8 +51,8 @@ const WorkExperience = () => {
 								<li><b>Contributed with Task manager and QA, BE Team</b>, regarding test, assign and fix bugs and develop futures.</li>
 								<li>Partial provided feedback on converted Figma to Frontend by new inters and team members.</li>
 							</div>
-						</div> */}
-					</div>
+						</div> 
+					</div> */}
 
 
 					<div className="mb-8 flex justify-between items-center w-full right-timeline">
