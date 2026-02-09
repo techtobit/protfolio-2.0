@@ -10,6 +10,7 @@ import effective from '../Assets/Certificate/Effective.jpg';
 import intern from '../Assets/Certificate/intership.jpg';
 import algile from '../Assets/Certificate/Agile.jpg';
 import hackerRankCss from '../Assets/Certificate/css.png';
+import google_network from "../Assets/Certificate/Computer Networking Coursera _page-0001.jpg"
 
 
 const Certificate = () => {
@@ -51,6 +52,11 @@ const Certificate = () => {
 	};
 
 	const timelineData = [
+		{
+			year: "2025",
+			courseName: "Computer Networking - Google",
+			image: `${google_network}`,
+		},
 		{
 			year: "2023",
 			courseName: "CSE Fundamentals Professional Certificate",
